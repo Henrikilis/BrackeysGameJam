@@ -6,21 +6,26 @@ public class SlimeMovement : MonoBehaviour
 {
 
     public Rigidbody rb;
-    public float slimeSpeed;
+    [SerializeField]
+    private float slimeSpeed;
+    public float initialSlimeSpeed;
     public float slimeSuperSpeed;
 
     public bool moveUp;
     public bool accelerate;
     public bool moveLeft;
     public bool moveRight;
+    public bool moveDown;
 
     void Start()
     {
+        slimeSpeed = initialSlimeSpeed;
         rb = GetComponent<Rigidbody>();
-        moveUp = false;
+        moveUp = true;
         accelerate = false;
         moveLeft = false;
         moveRight = false;
+        moveDown = false;
     }
 
     
@@ -31,13 +36,19 @@ public class SlimeMovement : MonoBehaviour
         rb.AddForce(new Vector3(slimeSpeed, 0), ForceMode.Acceleration);
 
         if (accelerate)
-        rb.AddForce(new Vector3(slimeSuperSpeed, 0), ForceMode.Acceleration);
+            slimeSpeed = slimeSuperSpeed;
+
+        if (!accelerate)
+            slimeSpeed = initialSlimeSpeed;
 
         if (moveLeft)
         rb.AddForce(new Vector3(0, 0, slimeSpeed), ForceMode.Acceleration);
 
         if (moveRight)
         rb.AddForce(new Vector3(0, 0, -slimeSpeed), ForceMode.Acceleration);
+
+        if(moveDown)
+            rb.AddForce(new Vector3(- slimeSpeed, 0), ForceMode.Acceleration);
 
     }
 

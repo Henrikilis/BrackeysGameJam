@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 393530133}
   m_LocalRotation: {x: 0.35355338, y: 0.35355338, z: -0.1464466, w: 0.8535535}
-  m_LocalPosition: {x: -8.2, y: 30.9, z: -8.2}
+  m_LocalPosition: {x: -8.2, y: 49, z: -8.2}
   m_LocalScale: {x: 1, y: 1.4475025, z: 1.4475025}
   m_Children: []
   m_Father: {fileID: 8771089267251574936}
@@ -261,8 +261,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 0}
   slimeSpeed: 10
+  initialSlimeSpeed: 10
   slimeSuperSpeed: 20
   moveUp: 0
   accelerate: 0
   moveLeft: 0
   moveRight: 0
+  moveDown: 0

@@ -18,7 +18,7 @@ public class UIController : MonoBehaviour
         //
         sm.moveRight = false;
         sm.moveUp = false;
-        sm.accelerate = false;
+        sm.moveDown = false;
 
     }
 
@@ -28,27 +28,40 @@ public class UIController : MonoBehaviour
         //
         sm.moveLeft = false;
         sm.moveUp = false;
-        sm.accelerate = false;
+        sm.moveDown = false;
 
     }
 
     public void halt()
     {
+        sm.accelerate = false;
+
+    }
+
+    public void up()
+    {
         sm.moveUp = true;
         //
+        sm.moveDown = false;
         sm.moveLeft = false;
         sm.moveRight = false;
-        sm.accelerate = false;
+
+
+    }
+
+    public void down()
+    {
+        sm.moveDown = true;
+        //
+        sm.moveUp = false;
+        sm.moveLeft = false;
+        sm.moveRight = false;
+        
 
     }
 
     public void speed()
     {
-        sm.accelerate = true;
-        //
-        sm.moveLeft = false;
-        sm.moveRight = false;
-        sm.moveUp = false;
-
+        sm.accelerate = true;       
     }
 }
