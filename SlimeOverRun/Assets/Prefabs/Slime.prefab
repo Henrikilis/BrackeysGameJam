@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8771089267251574939}
   - component: {fileID: 8771089267251574940}
   - component: {fileID: 8771089267251574941}
+  - component: {fileID: 286790433}
   m_Layer: 0
   m_Name: Slime
   m_TagString: Untagged
@@ -112,8 +113,8 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
+  m_Constraints: 80
+  m_CollisionDetection: 1
 --- !u!114 &8771089267251574941
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -130,3 +131,22 @@ MonoBehaviour:
   Mass: 1
   stiffness: 1
   damping: 0.75
+--- !u!114 &286790433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8771089267251574942}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06241fc8aae8c684297d554e8cd89b9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 0}
+  slimeSpeed: 10
+  slimeSuperSpeed: 20
+  moveUp: 0
+  accelerate: 0
+  moveLeft: 0
+  moveRight: 0
