@@ -5,63 +5,79 @@ using UnityEngine;
 public class UIController : MonoBehaviour
 {
 
-    public SlimeMovement sm;
+    public  SlimeMovement [] sm;
 
     private void Start()
     {
-        sm = FindObjectOfType<SlimeMovement>();
+        sm = FindObjectsOfType<SlimeMovement>();
     }
 
     public void left()
     {
-        sm.moveLeft = true;
-        //
-        sm.moveRight = false;
-        sm.moveUp = false;
-        sm.moveDown = false;
+        for (int i = 0; i < sm.Length; i++)
+        {
+            sm[i].moveLeft = true;
+            sm[i].moveRight = false;
+            sm[i].moveUp = false;
+            sm[i].moveDown = false;
+        }
+        
+        
+       
 
     }
 
     public void right()
     {
-        sm.moveRight = true;
-        //
-        sm.moveLeft = false;
-        sm.moveUp = false;
-        sm.moveDown = false;
+        for (int i = 0; i < sm.Length; i++)
+        {
+            sm[i].moveRight = true;
+            sm[i].moveLeft = false;
+            sm[i].moveUp = false;
+            sm[i].moveDown = false;
+        }
 
     }
 
     public void halt()
     {
-        sm.accelerate = false;
+        for (int i = 0; i < sm.Length; i++)
+        {
+            sm[i].accelerate = false;
+        }
+        
 
     }
 
     public void up()
     {
-        sm.moveUp = true;
-        //
-        sm.moveDown = false;
-        sm.moveLeft = false;
-        sm.moveRight = false;
-
+        for (int i = 0; i < sm.Length; i++)
+        {
+            sm[i].moveRight = false;
+            sm[i].moveLeft = false;
+            sm[i].moveUp = true;
+            sm[i].moveDown = false;
+        }
 
     }
 
     public void down()
     {
-        sm.moveDown = true;
-        //
-        sm.moveUp = false;
-        sm.moveLeft = false;
-        sm.moveRight = false;
-        
+        for (int i = 0; i < sm.Length; i++)
+        {
+            sm[i].moveRight = false;
+            sm[i].moveLeft = false;
+            sm[i].moveUp = false;
+            sm[i].moveDown = true;
+        }
 
     }
 
     public void speed()
     {
-        sm.accelerate = true;       
+        for (int i = 0; i < sm.Length; i++)
+        {
+            sm[i].accelerate = true;
+        }
     }
 }
