@@ -6,6 +6,8 @@ public class PressurePlate : MonoBehaviour
 {
     public Animator anim;
     public GameObject connection;
+    public int weightNeeded;
+    public int currentWeight;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,9 +18,20 @@ public class PressurePlate : MonoBehaviour
     {
         if(other.CompareTag("Player"))
         {
-            connection.GetComponent<Interactable>().GotTriggered();
-            anim.SetTrigger("Triggered");
-            Debug.Log("Pisei");
+            currentWeight++;
+            if(currentWeight >= weightNeeded)
+            {
+                connection.GetComponent<Interactable>().GotTriggered();
+                anim.SetTrigger("Triggered");
+                Debug.Log("Pisei");
+            }
+        }
+    }
+    void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            currentWeight--;
         }
     }
 }

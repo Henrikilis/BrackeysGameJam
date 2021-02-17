@@ -111,6 +111,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
   connection: {fileID: 0}
+  weightNeeded: 3
+  currentWeight: 0
 --- !u!95 &5830991829472385128
 Animator:
   serializedVersion: 3
