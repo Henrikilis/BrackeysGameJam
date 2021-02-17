@@ -9,11 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 796523202740880193}
-  - component: {fileID: 4369065810123361508}
-  - component: {fileID: 1965537002160257070}
-  - component: {fileID: 902805546628244653}
-  - component: {fileID: 3153224730497687848}
-  - component: {fileID: 5230207192028315585}
   m_Layer: 0
   m_Name: Pilar
   m_TagString: Untagged
@@ -29,27 +24,63 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 19704405327239675}
   m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: 13.084526, y: -12.7, z: -3}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 477.65228, y: 477.65228, z: 477.65228}
-  m_Children: []
+  m_Children:
+  - {fileID: 6692894219349021908}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &4369065810123361508
+--- !u!1 &789702501692993988
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6692894219349021908}
+  - component: {fileID: 6445338698374807646}
+  - component: {fileID: 7384010526389606556}
+  - component: {fileID: 5836994722671879880}
+  - component: {fileID: 7262471596876560653}
+  - component: {fileID: 3690612715461118398}
+  m_Layer: 0
+  m_Name: Pilar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6692894219349021908
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 789702501692993988}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 796523202740880193}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &6445338698374807646
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 19704405327239675}
+  m_GameObject: {fileID: 789702501692993988}
   m_Mesh: {fileID: -9144735209240173524, guid: 59a77ae9547cfaa4ab493382ad840ca4, type: 3}
---- !u!23 &1965537002160257070
+--- !u!23 &7384010526389606556
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 19704405327239675}
+  m_GameObject: {fileID: 789702501692993988}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -86,40 +117,40 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!65 &902805546628244653
+--- !u!65 &5836994722671879880
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 19704405327239675}
+  m_GameObject: {fileID: 789702501692993988}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.008982427, y: 0.008982427, z: 0.019999998}
   m_Center: {x: 9.313227e-10, y: 0, z: 0.009999999}
---- !u!114 &3153224730497687848
+--- !u!114 &7262471596876560653
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 19704405327239675}
+  m_GameObject: {fileID: 789702501692993988}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1943f93cc38603a48b7a8c4fb289a559, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
---- !u!95 &5230207192028315585
+--- !u!95 &3690612715461118398
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 19704405327239675}
+  m_GameObject: {fileID: 789702501692993988}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: a202babe1ec6bdb4c95e3eb63125b36c, type: 2}
