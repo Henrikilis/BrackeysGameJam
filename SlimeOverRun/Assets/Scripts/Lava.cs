@@ -4,10 +4,13 @@ using UnityEngine;
 
 public class Lava : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public hpbar hp;
+    
+
+
     void Start()
     {
-        
+        hp = FindObjectOfType<hpbar>();
     }
 
     // Update is called once per frame
@@ -20,6 +23,7 @@ public class Lava : MonoBehaviour
     {
         if(other.gameObject.CompareTag("Player"))
         {
+            hp.decreaseHealth(1);
             other.gameObject.SetActive(false);
         }
     }
