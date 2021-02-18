@@ -42,6 +42,7 @@ public class EnemyController : MonoBehaviour
         if (other.CompareTag("Player") && attacking && !dead)
         {
             other.gameObject.SetActive(false);
+            currentStrength--;
         }
     }
 
@@ -49,11 +50,13 @@ public class EnemyController : MonoBehaviour
     {
         yield return new WaitForSeconds(1);
         anim.SetTrigger("Attack");
-        yield return new WaitForSeconds(.5f);
-        attacking = false;
     }
     public void StartAttack()
     {
         attacking = true;
+    }
+    public void EndAttack()
+    {
+        attacking = false;
     }
 }
