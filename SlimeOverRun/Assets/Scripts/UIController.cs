@@ -53,11 +53,15 @@ public class UIController : MonoBehaviour
 
     }
 
-    public void halt()
+    public void swapSpeed()
     {
+        
         for (int i = 0; i < sm.Length; i++)
         {
-            sm[i].accelerate = false;
+            if (!sm[i].accelerate)
+                sm[i].accelerate = true;
+            else if(sm[i].accelerate)
+                sm[i].accelerate = false;
         }
         
 
@@ -97,11 +101,4 @@ public class UIController : MonoBehaviour
 
     }
 
-    public void speed()
-    {
-        for (int i = 0; i < sm.Length; i++)
-        {
-            sm[i].accelerate = true;
-        }
-    }
 }

@@ -6955,18 +6955,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8893941707680524895, guid: 5ab3b8feb27c1ee4fa1b1ba4995828a6, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -9.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 8893941707680524895, guid: 5ab3b8feb27c1ee4fa1b1ba4995828a6, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 43.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8893941707680524895, guid: 5ab3b8feb27c1ee4fa1b1ba4995828a6, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -9.7
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ab3b8feb27c1ee4fa1b1ba4995828a6, type: 3}
 --- !u!4 &543450652207648975 stripped
@@ -7331,14 +7319,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1210674911}
     m_Modifications:
-    - target: {fileID: 1506971541, guid: ee7b8b395c7c39d46a97c71906f97655, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 6817968074525154460}
-    - target: {fileID: 1506971541, guid: ee7b8b395c7c39d46a97c71906f97655, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: down
-      objectReference: {fileID: 0}
     - target: {fileID: 6817968074228004240, guid: ee7b8b395c7c39d46a97c71906f97655, type: 3}
       propertyPath: m_Name
       value: Buttons
@@ -7427,48 +7407,5 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6817968074723703990, guid: ee7b8b395c7c39d46a97c71906f97655, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 6817968074525154460}
-    - target: {fileID: 6817968074723703990, guid: ee7b8b395c7c39d46a97c71906f97655, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: left
-      objectReference: {fileID: 0}
-    - target: {fileID: 6817968074964050020, guid: ee7b8b395c7c39d46a97c71906f97655, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 6817968074525154460}
-    - target: {fileID: 6817968074964050020, guid: ee7b8b395c7c39d46a97c71906f97655, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: speed
-      objectReference: {fileID: 0}
-    - target: {fileID: 6817968075251331801, guid: ee7b8b395c7c39d46a97c71906f97655, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 6817968074525154460}
-    - target: {fileID: 6817968075251331801, guid: ee7b8b395c7c39d46a97c71906f97655, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: right
-      objectReference: {fileID: 0}
-    - target: {fileID: 6817968075554164042, guid: ee7b8b395c7c39d46a97c71906f97655, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 6817968074525154460}
-    - target: {fileID: 6817968075554164042, guid: ee7b8b395c7c39d46a97c71906f97655, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: halt
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ee7b8b395c7c39d46a97c71906f97655, type: 3}
---- !u!114 &6817968074525154460 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 149558812, guid: ee7b8b395c7c39d46a97c71906f97655, type: 3}
-  m_PrefabInstance: {fileID: 6817968074525154459}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6bdb6c27179e15540a8f46b97b1ec725, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

@@ -789,6 +789,18 @@ PrefabInstance:
       propertyPath: orthographic
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 393530136, guid: c9c2d10d877193846b3853eb5c6b364b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 393530136, guid: c9c2d10d877193846b3853eb5c6b364b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 43.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 393530136, guid: c9c2d10d877193846b3853eb5c6b364b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -9.7
+      objectReference: {fileID: 0}
     - target: {fileID: 8771089267251574936, guid: c9c2d10d877193846b3853eb5c6b364b, type: 3}
       propertyPath: m_RootOrder
       value: 0
