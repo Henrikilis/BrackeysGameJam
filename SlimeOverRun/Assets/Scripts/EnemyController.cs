@@ -8,6 +8,7 @@ public class EnemyController : MonoBehaviour
     public int currentStrength;
     public bool attacking;
     public bool dead;
+    public hpbar hp;
 
     public Animator anim;
 
@@ -15,6 +16,7 @@ public class EnemyController : MonoBehaviour
     void Start()
     {
         anim = gameObject.GetComponent<Animator>();
+        hp = FindObjectOfType<hpbar>();
     }
 
     void OnTriggerEnter(Collider other)
@@ -41,6 +43,7 @@ public class EnemyController : MonoBehaviour
     {
         if (other.CompareTag("Player") && attacking && !dead)
         {
+            hp.decreaseHealth(1);
             other.gameObject.SetActive(false);
             currentStrength--;
         }

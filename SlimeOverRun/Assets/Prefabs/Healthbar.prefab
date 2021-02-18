@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 496284309299119483}
   - component: {fileID: 496284309299119485}
   - component: {fileID: 496284309299119484}
+  - component: {fileID: 1962465793}
   m_Layer: 5
   m_Name: Fill
   m_TagString: Untagged
@@ -75,6 +76,20 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &1962465793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 496284309299119482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a4185b8f0aea414ba6aea95b80f96cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foregroundImage: {fileID: 496284309299119484}
+  updateSpeedSeconds: 0.5
 --- !u!1 &496284309613394673
 GameObject:
   m_ObjectHideFlags: 0
@@ -161,6 +176,7 @@ GameObject:
   - component: {fileID: 496284310522531651}
   - component: {fileID: 496284310522531653}
   - component: {fileID: 496284310522531652}
+  - component: {fileID: 718312735}
   m_Layer: 5
   m_Name: Healthbar
   m_TagString: Untagged
@@ -227,3 +243,19 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &718312735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 496284310522531650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b94cf458d34789b48b428853f2d52277, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sm: []
+  initialSlimeAmout: 0
+  currentHealth: 0
+  town: 0
