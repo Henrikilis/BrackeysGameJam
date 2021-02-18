@@ -3910,6 +3910,39 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1216826144 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5344881258347443218, guid: 178eb5600b568b74392f6eca92d915d8, type: 3}
+  m_PrefabInstance: {fileID: 5110948951730421351}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &1216826145
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1216826144}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.02641872, y: 0.020397918, z: 0.011176487}
+  m_Center: {x: 0.0016957449, y: -0.0019664478, z: 0.0055882493}
+--- !u!114 &1216826146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1216826144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdd840242f251ea4a8cf559c2972da3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sm: []
+  slimeCount: 0
+  slimeToWin: 0
 --- !u!1 &1218959867
 GameObject:
   m_ObjectHideFlags: 0
