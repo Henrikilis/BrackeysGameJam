@@ -864,9 +864,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6399548203941368341}
-  m_LocalRotation: {x: -0, y: -0.72251266, z: -0, w: 0.69135773}
+  m_LocalRotation: {x: 0, y: -0.72251487, z: 0, w: 0.69135547}
   m_LocalPosition: {x: 16.71, y: 0.05, z: -2}
-  m_LocalScale: {x: 0.073970646, y: 0.07397065, z: 0.073970646}
+  m_LocalScale: {x: 0.062327012, y: 0.06232702, z: 0.062327012}
   m_Children:
   - {fileID: 1696314131873324715}
   - {fileID: 2293529919064647739}
@@ -930,7 +930,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 281b7ad1c5a6f204ebe6963e12e3aa3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  strengthNeeded: 5
+  strengthNeeded: 3
   currentStrength: 0
   attacking: 0
   dead: 0
