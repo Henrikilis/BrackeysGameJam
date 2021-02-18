@@ -7,35 +7,39 @@ public class EnemyController : MonoBehaviour
     public int strengthNeeded;
     public int currentStrength;
     public bool attacking;
+    public bool dead;
+
+    public Animator anim;
 
     // Update is called once per frame
-    void Update()
+    void Start()
     {
-
+        anim = gameObject.GetComponent<Animator>();
     }
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") && !dead)
         {
             currentStrength++;
             if (currentStrength >= strengthNeeded)
             {
-                gameObject.SetActive(false);
+                anim.SetTrigger("Death");
+                gameObject.layer = 8;
             }
             else { StartCoroutine("Attack"); }
         }
     }
     void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") && !dead)
         {
             currentStrength--;
         }
     }
     void OnTriggerStay(Collider other)
     {
-        if (other.CompareTag("Player") && attacking)
+        if (other.CompareTag("Player") && attacking && !dead)
         {
             other.gameObject.SetActive(false);
         }
@@ -44,8 +48,12 @@ public class EnemyController : MonoBehaviour
     IEnumerator Attack()
     {
         yield return new WaitForSeconds(1);
-        attacking = true;
-        yield return new WaitForSeconds(.4f);
+        anim.SetTrigger("Attack");
+        yield return new WaitForSeconds(.5f);
         attacking = false;
+    }
+    public void StartAttack()
+    {
+        attacking = true;
     }
 }
