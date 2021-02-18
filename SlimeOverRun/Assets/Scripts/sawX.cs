@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class serraX : MonoBehaviour
+public class sawX : MonoBehaviour
 {
     public Rigidbody rb;
 
