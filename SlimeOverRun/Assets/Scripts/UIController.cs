@@ -9,6 +9,8 @@ public class UIController : MonoBehaviour
     public  SlimeMovement [] sm;
     public Sprite[] arrow;
     public GameObject[] directions;
+    public Sprite[] speeds;
+    public GameObject button;
 
     private void Start()
     {
@@ -58,10 +60,14 @@ public class UIController : MonoBehaviour
         
         for (int i = 0; i < sm.Length; i++)
         {
-            if (!sm[i].accelerate)
+            if (!sm[i].accelerate) { 
                 sm[i].accelerate = true;
-            else if(sm[i].accelerate)
+                button.GetComponent<Image>().sprite = speeds[0];
+            }
+            else if (sm[i].accelerate) { 
                 sm[i].accelerate = false;
+                button.GetComponent<Image>().sprite = speeds[1];
+            }
         }
         
 

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Mage : MonoBehaviour
 {
+    public Animator anim;
     public int strengthNeeded;
     public int currentStrength;
     public bool dead;
@@ -13,6 +14,7 @@ public class Mage : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        anim = gameObject.GetComponent<Animator>();
         if (!dead)
             buff.GetComponent<EnemyController>().strengthNeeded = buff.GetComponent<EnemyController>().strengthNeeded * 2;
     }
@@ -30,7 +32,7 @@ public class Mage : MonoBehaviour
             currentStrength++;
             if (currentStrength >= strengthNeeded)
             {
-                //anim.SetTrigger("Death");
+                anim.SetTrigger("Death");
                 gameObject.layer = 8;
                 dead = true;
                 buff.GetComponent<EnemyController>().strengthNeeded = buff.GetComponent<EnemyController>().strengthNeeded / 2;
