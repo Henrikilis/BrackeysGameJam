@@ -28,6 +28,7 @@ public class EnemyController : MonoBehaviour
             {
                 anim.SetTrigger("Death");
                 gameObject.layer = 8;
+                dead = true;
             }
             else { StartCoroutine("Attack"); }
         }
