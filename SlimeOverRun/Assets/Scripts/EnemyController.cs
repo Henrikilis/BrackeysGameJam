@@ -9,7 +9,8 @@ public class EnemyController : MonoBehaviour
     public bool attacking;
     public bool dead;
     public hpbar hp;
-
+    public slimeManager sm;
+    Camera cam;
     public Animator anim;
 
     // Update is called once per frame
@@ -17,6 +18,7 @@ public class EnemyController : MonoBehaviour
     {
         anim = gameObject.GetComponent<Animator>();
         hp = FindObjectOfType<hpbar>();
+        sm = FindObjectOfType<slimeManager>();
     }
 
     void OnTriggerEnter(Collider other)
@@ -47,6 +49,15 @@ public class EnemyController : MonoBehaviour
             hp.decreaseHealth(1);
             other.gameObject.SetActive(false);
             currentStrength--;
+        }
+        if (other.CompareTag("MainSlime") && attacking && !dead)
+        {
+            hp.decreaseHealth(1);
+
+            cam = other.gameObject.GetComponentInChildren<Camera>();
+            cam.gameObject.transform.parent = null;
+            other.gameObject.SetActive(false);
+            sm.isDead();
         }
     }
 

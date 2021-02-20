@@ -4,13 +4,15 @@ using UnityEngine;
 
 public class Lava : MonoBehaviour
 {
+    public slimeManager sm;
     public hpbar hp;
-    
+    Camera cam;
 
 
     void Start()
     {
         hp = FindObjectOfType<hpbar>();
+        sm = FindObjectOfType<slimeManager>();
     }
 
     // Update is called once per frame
@@ -25,6 +27,15 @@ public class Lava : MonoBehaviour
         {
             hp.decreaseHealth(1);
             other.gameObject.SetActive(false);
+        }
+        if (other.gameObject.CompareTag("MainSlime"))
+        {
+             hp.decreaseHealth(1);
+            
+            cam = other.gameObject.GetComponentInChildren<Camera>();
+            cam.gameObject.transform.parent = null;
+            other.gameObject.SetActive(false);
+            sm.isDead();
         }
     }
 }
