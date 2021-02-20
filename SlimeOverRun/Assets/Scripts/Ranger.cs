@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class Ranger : MonoBehaviour
 {
@@ -10,10 +11,21 @@ public class Ranger : MonoBehaviour
     public bool dead;
     public GameObject bow;
 
+    public GameObject ballon;
+    private int displayText;
+    public TMP_Text text;
+
     // Start is called before the first frame update
     void Start()
     {
         anim = gameObject.GetComponent<Animator>();
+    }
+
+    private void Update()
+    {
+        displayText = strengthNeeded - currentStrength;
+
+        text.SetText(displayText.ToString());
     }
 
     void OnTriggerEnter(Collider other)
@@ -23,6 +35,8 @@ public class Ranger : MonoBehaviour
             currentStrength++;
             if (currentStrength >= strengthNeeded)
             {
+                ballon.SetActive(false);
+                text.gameObject.SetActive(false);
                 anim.SetTrigger("Death");
                 gameObject.layer = 8;
                 dead = true;
