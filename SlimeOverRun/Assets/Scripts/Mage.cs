@@ -21,7 +21,10 @@ public class Mage : MonoBehaviour
     {
         anim = gameObject.GetComponent<Animator>();
         if (!dead)
+        {
             buff.GetComponent<EnemyController>().strengthNeeded = buff.GetComponent<EnemyController>().strengthNeeded * 2;
+            buff.GetComponent<EnemyController>().text.color = Color.red;
+        }
     }
 
     private void Update()
@@ -33,7 +36,7 @@ public class Mage : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player") && !dead)
+        if (other.CompareTag("Player") || other.CompareTag("MainSlime") && !dead)
         {
             currentStrength++;
             if (currentStrength >= strengthNeeded)
@@ -44,13 +47,14 @@ public class Mage : MonoBehaviour
                 gameObject.layer = 8;
                 dead = true;
                 buff.GetComponent<EnemyController>().strengthNeeded = buff.GetComponent<EnemyController>().strengthNeeded / 2;
+                buff.GetComponent<EnemyController>().text.color = Color.white;
             }
         }
     }
 
     void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("Player") && !dead)
+        if (other.CompareTag("Player") || other.CompareTag("MainSlime") && !dead)
         {
             currentStrength--;
         }

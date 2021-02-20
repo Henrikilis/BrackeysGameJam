@@ -1057,7 +1057,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 36.3
+  m_Radius: 25
   m_Center: {x: 0, y: 17.55, z: 0}
 --- !u!65 &6695541904354922156
 BoxCollider:
@@ -1070,8 +1070,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 29.939022, y: 26.258694, z: 17.879175}
-  m_Center: {x: 1.2225332, y: 13.011345, z: 1.6957943}
+  m_Size: {x: 13.874927, y: 26.258694, z: 13.310525}
+  m_Center: {x: -0.36418957, y: 13.011607, z: -0.5885321}
 --- !u!95 &6695541904354922158
 Animator:
   serializedVersion: 3
