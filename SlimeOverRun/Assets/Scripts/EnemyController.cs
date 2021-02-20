@@ -28,6 +28,7 @@ public class EnemyController : MonoBehaviour
 
     private void Update()
     {
+        hp = FindObjectOfType<hpbar>();
         displayText = strengthNeeded - currentStrength;
 
         text.SetText(displayText.ToString());

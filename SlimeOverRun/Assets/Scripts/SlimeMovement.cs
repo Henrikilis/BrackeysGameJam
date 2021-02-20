@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SlimeMovement : MonoBehaviour
 {
@@ -37,7 +38,12 @@ public class SlimeMovement : MonoBehaviour
     {
         slimeSpeed = initialSlimeSpeed;
         rb = GetComponent<Rigidbody>();
-        moveUp = true;
+
+        if (SceneManager.GetActiveScene().buildIndex == 0)
+            moveUp = false;
+        else
+            moveUp = true;
+
         accelerate = false;
         moveLeft = false;
         moveRight = false;
