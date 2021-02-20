@@ -6,6 +6,7 @@ public class winCondition : MonoBehaviour
 {
 
     public SlimeMovement[] sm;
+    public slimeManager manager;
 
     [SerializeField]
     private float slimeCount;
@@ -36,7 +37,7 @@ public class winCondition : MonoBehaviour
             slimeCount++;
             if (slimeCount >= slimeToWin)
             {
-                //passa de fase
+                manager.NextLevel();
             }
         }
     }
