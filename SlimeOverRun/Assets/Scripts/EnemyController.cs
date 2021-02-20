@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class EnemyController : MonoBehaviour
 {
@@ -13,12 +14,23 @@ public class EnemyController : MonoBehaviour
     Camera cam;
     public Animator anim;
 
+    public GameObject ballon;
+    private int displayText;
+    public TMP_Text text;
+
     // Update is called once per frame
     void Start()
     {
         anim = gameObject.GetComponent<Animator>();
         hp = FindObjectOfType<hpbar>();
         sm = FindObjectOfType<slimeManager>();
+    }
+
+    private void Update()
+    {
+        displayText = strengthNeeded - currentStrength;
+
+        text.SetText(displayText.ToString());
     }
 
     void OnTriggerEnter(Collider other)
@@ -28,6 +40,8 @@ public class EnemyController : MonoBehaviour
             currentStrength++;
             if (currentStrength >= strengthNeeded)
             {
+                ballon.SetActive(false);
+                text.gameObject.SetActive(false);
                 anim.SetTrigger("Death");
                 gameObject.layer = 8;
                 dead = true;
