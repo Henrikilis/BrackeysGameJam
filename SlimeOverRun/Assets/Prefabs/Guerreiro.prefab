@@ -884,8 +884,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 24.510712, y: 25.251247, z: 25.99504}
-  m_Center: {x: 2.1038096, y: 12.605096, z: 11.346427}
+  m_Size: {x: 34.986843, y: 25.251198, z: 39.21304}
+  m_Center: {x: 3.4151285, y: 12.605073, z: 17.955442}
 --- !u!65 &6056966559155826507
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -897,8 +897,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 24.581049, y: 24.64506, z: 15.437367}
-  m_Center: {x: 0.8508333, y: 12.319859, z: 0.6321043}
+  m_Size: {x: 27.429775, y: 24.645044, z: 15.4373665}
+  m_Center: {x: 2.275195, y: 12.319852, z: 0.63210446}
 --- !u!95 &6056966559155826506
 Animator:
   serializedVersion: 3
@@ -935,6 +935,7 @@ MonoBehaviour:
   attacking: 0
   dead: 0
   hp: {fileID: 0}
+  sm: {fileID: 0}
   anim: {fileID: 0}
 --- !u!1 &6512420596135953969
 GameObject:

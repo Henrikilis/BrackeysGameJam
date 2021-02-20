@@ -20,6 +20,7 @@ public class winCondition : MonoBehaviour
     void Start()
     {
         sm = FindObjectsOfType<SlimeMovement>();
+        manager = FindObjectOfType<slimeManager>();
 
         for (int i = 0; i < sm.Length; i++)
         {
