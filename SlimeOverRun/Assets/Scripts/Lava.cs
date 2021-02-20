@@ -22,8 +22,9 @@ public class Lava : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(arrow)
-            rb.AddForce(new Vector3(-10, 0), ForceMode.Acceleration);
+        if (arrow)
+            //rb.AddForce(new Vector3(-10, 0), ForceMode.Acceleration);
+            rb.AddForce(gameObject.transform.forward);
     }
 
     void OnCollisionEnter(Collision other)
