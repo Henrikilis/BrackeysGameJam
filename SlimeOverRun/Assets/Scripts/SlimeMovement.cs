@@ -16,6 +16,8 @@ public class SlimeMovement : MonoBehaviour
     public bool moveRight;
     public bool moveDown;
 
+   
+
     public Material[] emotion;
     public GameObject model;
     public bool isGrounded;
@@ -41,6 +43,7 @@ public class SlimeMovement : MonoBehaviour
         if(moveUp)
         {
             rb.AddForce(new Vector3(slimeSpeed, 0), ForceMode.Acceleration);
+            transform.LookAt(Vector3.back, Vector3.up);
         }
 
         if (accelerate)
@@ -60,16 +63,19 @@ public class SlimeMovement : MonoBehaviour
         if (moveLeft)
         {
             rb.AddForce(new Vector3(0, 0, slimeSpeed), ForceMode.Acceleration);
+            transform.LookAt(Vector3.left);
         }
 
         if (moveRight)
         {
             rb.AddForce(new Vector3(0, 0, -slimeSpeed), ForceMode.Acceleration);
+            transform.LookAt(Vector3.right);
         }
 
         if(moveDown)
         {
             rb.AddForce(new Vector3(-slimeSpeed, 0), ForceMode.Acceleration);
+            transform.LookAt(Vector3.back);
         }
 
         if (!isGrounded)
