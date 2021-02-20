@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class UIController : MonoBehaviour
 {
-
+    public AudioSource audioClip;
     public  SlimeMovement [] sm;
     public Sprite[] arrow;
     public GameObject[] directions;
@@ -14,12 +14,15 @@ public class UIController : MonoBehaviour
 
     private void Start()
     {
+        audioClip = gameObject.GetComponent<AudioSource>();
         sm = FindObjectsOfType<SlimeMovement>();
         directions[2].GetComponent<Image>().sprite = arrow[1];
     }
 
     public void left()
     {
+        audioClip.Play();
+
         for (int i = 0; i < sm.Length; i++)
         {
             sm[i].moveLeft = true;
@@ -40,6 +43,7 @@ public class UIController : MonoBehaviour
 
     public void right()
     {
+        audioClip.Play();
         for (int i = 0; i < sm.Length; i++)
         {
             sm[i].moveRight = true;
@@ -75,6 +79,7 @@ public class UIController : MonoBehaviour
 
     public void up()
     {
+        audioClip.Play();
         for (int i = 0; i < sm.Length; i++)
         {
             sm[i].moveRight = false;
@@ -92,6 +97,7 @@ public class UIController : MonoBehaviour
 
     public void down()
     {
+        audioClip.Play();
         for (int i = 0; i < sm.Length; i++)
         {
             sm[i].moveRight = false;

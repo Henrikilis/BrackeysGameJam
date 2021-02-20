@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class SlimeMovement : MonoBehaviour
 {
+   
     public Rigidbody rb;
     [SerializeField]
     private float slimeSpeed;
@@ -36,6 +37,7 @@ public class SlimeMovement : MonoBehaviour
 
     void Start()
     {
+       
         slimeSpeed = initialSlimeSpeed;
         rb = GetComponent<Rigidbody>();
 
@@ -60,7 +62,7 @@ public class SlimeMovement : MonoBehaviour
         if(moveUp)
         {
 
-
+           
             rb.AddForce(new Vector3(slimeSpeed, 0), ForceMode.Acceleration);
 
             Vector3 direction = lookPosFrente.position - model.transform.position;
@@ -87,7 +89,7 @@ public class SlimeMovement : MonoBehaviour
         if (moveLeft)
         {
             rb.AddForce(new Vector3(0, 0, slimeSpeed), ForceMode.Acceleration);
-
+           
             Vector3 direction = lookPosEsquerda.position - model.transform.position;
 
             model.transform.rotation = Quaternion.LookRotation(direction);
@@ -97,7 +99,7 @@ public class SlimeMovement : MonoBehaviour
         if (moveRight)
         {
             rb.AddForce(new Vector3(0, 0, -slimeSpeed), ForceMode.Acceleration);
-
+            
             Vector3 direction = lookPosDireita.position - model.transform.position;
 
             model.transform.rotation = Quaternion.LookRotation(direction);

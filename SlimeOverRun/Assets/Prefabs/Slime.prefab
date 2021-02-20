@@ -348,6 +348,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06241fc8aae8c684297d554e8cd89b9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioClip: {fileID: 0}
   rb: {fileID: 0}
   slimeSpeed: 10
   initialSlimeSpeed: 10
@@ -502,6 +503,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06241fc8aae8c684297d554e8cd89b9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioClip: {fileID: 0}
   rb: {fileID: 0}
   slimeSpeed: 10
   initialSlimeSpeed: 10

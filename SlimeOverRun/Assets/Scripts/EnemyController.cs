@@ -17,10 +17,11 @@ public class EnemyController : MonoBehaviour
     public GameObject ballon;
     private int displayText;
     public TMP_Text text;
-
+    public AudioSource audioClip;
     // Update is called once per frame
     void Start()
     {
+        audioClip = gameObject.GetComponent<AudioSource>();
         anim = gameObject.GetComponent<Animator>();
         hp = FindObjectOfType<hpbar>();
         sm = FindObjectOfType<slimeManager>();
@@ -61,6 +62,7 @@ public class EnemyController : MonoBehaviour
     {
         if (other.CompareTag("Player") && attacking && !dead)
         {
+            audioClip.Play();
             hp.decreaseHealth(1);
             other.gameObject.SetActive(false);
             currentStrength--;
@@ -68,7 +70,7 @@ public class EnemyController : MonoBehaviour
         if (other.CompareTag("MainSlime") && attacking && !dead)
         {
             hp.decreaseHealth(1);
-
+            audioClip.Play();
             cam = other.gameObject.GetComponentInChildren<Camera>();
             cam.gameObject.transform.parent = null;
             other.gameObject.SetActive(false);

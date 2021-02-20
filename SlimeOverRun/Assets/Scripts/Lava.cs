@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Lava : MonoBehaviour
 {
+    public AudioSource audioClip;
     public slimeManager sm;
     public hpbar hp;
     Camera cam;
@@ -13,6 +14,7 @@ public class Lava : MonoBehaviour
 
     void Start()
     {
+        audioClip = gameObject.GetComponent<AudioSource>();
         hp = FindObjectOfType<hpbar>();
         sm = FindObjectOfType<slimeManager>();
         if (arrow)
@@ -32,6 +34,7 @@ public class Lava : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            audioClip.Play();
             hp.decreaseHealth(1);
             other.gameObject.SetActive(false);
             if (arrow)
@@ -40,7 +43,7 @@ public class Lava : MonoBehaviour
         if (other.gameObject.CompareTag("MainSlime"))
         {
             hp.decreaseHealth(1);
-
+            audioClip.Play();
             cam = other.gameObject.GetComponentInChildren<Camera>();
             cam.gameObject.transform.parent = null;
             other.gameObject.SetActive(false);
