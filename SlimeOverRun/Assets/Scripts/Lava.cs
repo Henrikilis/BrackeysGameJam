@@ -22,6 +22,7 @@ public class Lava : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        hp = FindObjectOfType<hpbar>();
         if (arrow)
             //rb.AddForce(new Vector3(-10, 0), ForceMode.Acceleration);
             rb.AddForce(gameObject.transform.forward);

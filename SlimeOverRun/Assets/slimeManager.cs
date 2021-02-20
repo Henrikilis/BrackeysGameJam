@@ -7,6 +7,10 @@ using UnityEngine.SceneManagement;
 public class slimeManager : MonoBehaviour
 {
     public GameObject gameOverCanvas;
+    public GameObject StartScreen;
+    public GameObject healthBar;
+    public GameObject Movement;
+    public GameObject speedUI;
     public SlimeMovement[] sm;
     public winCondition wc;
 
@@ -25,7 +29,28 @@ public class slimeManager : MonoBehaviour
         wc = FindObjectOfType<winCondition>();
         sm = FindObjectsOfType<SlimeMovement>();
         isActive = false;
-   
+
+        if(SceneManager.GetActiveScene().buildIndex == 0)
+        {
+             gameOverCanvas.SetActive(false);
+             StartScreen.SetActive(true);
+             healthBar.SetActive(false);
+             Movement.SetActive(false);
+             speedUI.SetActive(false);
+
+        }
+        else
+        {
+            gameOverCanvas.SetActive(false);
+            StartScreen.SetActive(false);
+            healthBar.SetActive(true);
+            Movement.SetActive(true);
+            speedUI.SetActive(true);
+
+        }
+
+        
+       
     }
 
     public void Update()
@@ -64,9 +89,24 @@ public class slimeManager : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
+
     public void NextLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    public void StartGame()
+    {
+        for (int i = 0; i < sm.Length; i++)
+        {
+            sm[i].moveUp = true;
+        }
+
+        StartScreen.SetActive(false);    
+        healthBar.SetActive(true);
+        Movement.SetActive(true);
+        speedUI.SetActive(true);
+
     }
 
     IEnumerator slimeCount()
