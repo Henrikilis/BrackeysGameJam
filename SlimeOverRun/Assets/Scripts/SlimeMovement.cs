@@ -16,12 +16,22 @@ public class SlimeMovement : MonoBehaviour
     public bool moveRight;
     public bool moveDown;
 
-   
+
+    [SerializeField]
+    private Transform lookPosFrente;
+    [SerializeField]
+    private Transform lookPosTras;
+    [SerializeField]
+    private Transform lookPosEsquerda;
+    [SerializeField]
+    private Transform lookPosDireita;
+
 
     public Material[] emotion;
     public GameObject model;
     public bool isGrounded;
     public float flyTime;
+    private Vector3 direction;
 
     void Start()
     {
@@ -39,11 +49,19 @@ public class SlimeMovement : MonoBehaviour
     
     void FixedUpdate()
     {
+        
 
         if(moveUp)
         {
+
+
             rb.AddForce(new Vector3(slimeSpeed, 0), ForceMode.Acceleration);
-            transform.LookAt(Vector3.back, Vector3.up);
+
+            Vector3 direction = lookPosFrente.position - model.transform.position;
+
+            model.transform.rotation = Quaternion.LookRotation(direction);
+       
+            
         }
 
         if (accelerate)
@@ -63,19 +81,34 @@ public class SlimeMovement : MonoBehaviour
         if (moveLeft)
         {
             rb.AddForce(new Vector3(0, 0, slimeSpeed), ForceMode.Acceleration);
-            transform.LookAt(Vector3.left);
+
+            Vector3 direction = lookPosEsquerda.position - model.transform.position;
+
+            model.transform.rotation = Quaternion.LookRotation(direction);
+
         }
 
         if (moveRight)
         {
             rb.AddForce(new Vector3(0, 0, -slimeSpeed), ForceMode.Acceleration);
-            transform.LookAt(Vector3.right);
+
+            Vector3 direction = lookPosDireita.position - model.transform.position;
+
+            model.transform.rotation = Quaternion.LookRotation(direction);
+
+
         }
 
         if(moveDown)
         {
             rb.AddForce(new Vector3(-slimeSpeed, 0), ForceMode.Acceleration);
-            transform.LookAt(Vector3.back);
+            
+
+            Vector3 direction = lookPosTras.position - model.transform.position;
+
+            model.transform.rotation = Quaternion.LookRotation(direction);
+
+
         }
 
         if (!isGrounded)
