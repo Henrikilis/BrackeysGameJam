@@ -47,6 +47,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 203941727615366484}
     m_Modifications:
+    - target: {fileID: 286790433, guid: c9c2d10d877193846b3853eb5c6b364b, type: 3}
+      propertyPath: slimeSpeed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 286790433, guid: c9c2d10d877193846b3853eb5c6b364b, type: 3}
+      propertyPath: slimeSuperSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 286790433, guid: c9c2d10d877193846b3853eb5c6b364b, type: 3}
+      propertyPath: initialSlimeSpeed
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 393530133, guid: c9c2d10d877193846b3853eb5c6b364b, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -137,6 +149,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 203941727615366484}
     m_Modifications:
+    - target: {fileID: 286790433, guid: c9c2d10d877193846b3853eb5c6b364b, type: 3}
+      propertyPath: slimeSpeed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 286790433, guid: c9c2d10d877193846b3853eb5c6b364b, type: 3}
+      propertyPath: slimeSuperSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 286790433, guid: c9c2d10d877193846b3853eb5c6b364b, type: 3}
+      propertyPath: initialSlimeSpeed
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 393530133, guid: c9c2d10d877193846b3853eb5c6b364b, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -227,6 +251,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 203941727615366484}
     m_Modifications:
+    - target: {fileID: 286790433, guid: c9c2d10d877193846b3853eb5c6b364b, type: 3}
+      propertyPath: slimeSpeed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 286790433, guid: c9c2d10d877193846b3853eb5c6b364b, type: 3}
+      propertyPath: slimeSuperSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 286790433, guid: c9c2d10d877193846b3853eb5c6b364b, type: 3}
+      propertyPath: initialSlimeSpeed
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 393530133, guid: c9c2d10d877193846b3853eb5c6b364b, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -317,6 +353,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 203941727615366484}
     m_Modifications:
+    - target: {fileID: 286790433, guid: c9c2d10d877193846b3853eb5c6b364b, type: 3}
+      propertyPath: slimeSpeed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 286790433, guid: c9c2d10d877193846b3853eb5c6b364b, type: 3}
+      propertyPath: slimeSuperSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 286790433, guid: c9c2d10d877193846b3853eb5c6b364b, type: 3}
+      propertyPath: initialSlimeSpeed
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 393530133, guid: c9c2d10d877193846b3853eb5c6b364b, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -407,6 +455,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 203941727615366484}
     m_Modifications:
+    - target: {fileID: 286790433, guid: c9c2d10d877193846b3853eb5c6b364b, type: 3}
+      propertyPath: slimeSpeed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 286790433, guid: c9c2d10d877193846b3853eb5c6b364b, type: 3}
+      propertyPath: slimeSuperSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 286790433, guid: c9c2d10d877193846b3853eb5c6b364b, type: 3}
+      propertyPath: initialSlimeSpeed
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 393530133, guid: c9c2d10d877193846b3853eb5c6b364b, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -497,6 +557,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 203941727615366484}
     m_Modifications:
+    - target: {fileID: 286790433, guid: c9c2d10d877193846b3853eb5c6b364b, type: 3}
+      propertyPath: slimeSpeed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 286790433, guid: c9c2d10d877193846b3853eb5c6b364b, type: 3}
+      propertyPath: slimeSuperSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 286790433, guid: c9c2d10d877193846b3853eb5c6b364b, type: 3}
+      propertyPath: initialSlimeSpeed
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 393530133, guid: c9c2d10d877193846b3853eb5c6b364b, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -587,6 +659,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 203941727615366484}
     m_Modifications:
+    - target: {fileID: 286790433, guid: c9c2d10d877193846b3853eb5c6b364b, type: 3}
+      propertyPath: slimeSpeed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 286790433, guid: c9c2d10d877193846b3853eb5c6b364b, type: 3}
+      propertyPath: slimeSuperSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 286790433, guid: c9c2d10d877193846b3853eb5c6b364b, type: 3}
+      propertyPath: initialSlimeSpeed
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 393530133, guid: c9c2d10d877193846b3853eb5c6b364b, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -677,6 +761,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 203941727615366484}
     m_Modifications:
+    - target: {fileID: 286790433, guid: c9c2d10d877193846b3853eb5c6b364b, type: 3}
+      propertyPath: slimeSpeed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 286790433, guid: c9c2d10d877193846b3853eb5c6b364b, type: 3}
+      propertyPath: slimeSuperSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 286790433, guid: c9c2d10d877193846b3853eb5c6b364b, type: 3}
+      propertyPath: initialSlimeSpeed
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 393530133, guid: c9c2d10d877193846b3853eb5c6b364b, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -767,6 +863,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 203941727615366484}
     m_Modifications:
+    - target: {fileID: 286790433, guid: c9c2d10d877193846b3853eb5c6b364b, type: 3}
+      propertyPath: slimeSpeed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 286790433, guid: c9c2d10d877193846b3853eb5c6b364b, type: 3}
+      propertyPath: slimeSuperSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 286790433, guid: c9c2d10d877193846b3853eb5c6b364b, type: 3}
+      propertyPath: initialSlimeSpeed
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 393530133, guid: c9c2d10d877193846b3853eb5c6b364b, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -857,6 +965,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 203941727615366484}
     m_Modifications:
+    - target: {fileID: 286790433, guid: c9c2d10d877193846b3853eb5c6b364b, type: 3}
+      propertyPath: slimeSpeed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 286790433, guid: c9c2d10d877193846b3853eb5c6b364b, type: 3}
+      propertyPath: slimeSuperSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 286790433, guid: c9c2d10d877193846b3853eb5c6b364b, type: 3}
+      propertyPath: initialSlimeSpeed
+      value: 7.5
+      objectReference: {fileID: 0}
     - target: {fileID: 393530135, guid: c9c2d10d877193846b3853eb5c6b364b, type: 3}
       propertyPath: orthographic
       value: 1
@@ -955,6 +1075,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8771089267251574936, guid: c9c2d10d877193846b3853eb5c6b364b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8771089267251574939, guid: c9c2d10d877193846b3853eb5c6b364b, type: 3}
+      propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8771089267251574942, guid: c9c2d10d877193846b3853eb5c6b364b, type: 3}
