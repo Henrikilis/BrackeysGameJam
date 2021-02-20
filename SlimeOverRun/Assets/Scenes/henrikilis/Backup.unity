@@ -2667,6 +2667,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sm: {fileID: 0}
   hp: {fileID: 0}
+  arrow: 0
+  rb: {fileID: 0}
 --- !u!54 &806741599
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7294,7 +7296,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 203941727615366483, guid: 5ab3b8feb27c1ee4fa1b1ba4995828a6, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 203941727615366484, guid: 5ab3b8feb27c1ee4fa1b1ba4995828a6, type: 3}
       propertyPath: m_RootOrder
@@ -13239,7 +13241,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7700475861967210733
 Transform:
   m_ObjectHideFlags: 0
