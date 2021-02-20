@@ -29,13 +29,13 @@ public class PressurePlate : MonoBehaviour
 
         text.SetText(displayText.ToString());
 
-        
+
 
     }
 
     void OnTriggerEnter(Collider other)
     {
-        if(other.CompareTag("Player"))
+        if (other.CompareTag("Player") || other.CompareTag("MainSlime"))
         {
             currentWeight++;
             if(currentWeight >= weightNeeded)
@@ -50,7 +50,7 @@ public class PressurePlate : MonoBehaviour
     }
     void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") || other.CompareTag("MainSlime"))
         {
             currentWeight--;
         }

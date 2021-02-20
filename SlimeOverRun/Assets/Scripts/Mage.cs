@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class Mage : MonoBehaviour
 {
@@ -8,6 +9,10 @@ public class Mage : MonoBehaviour
     public int strengthNeeded;
     public int currentStrength;
     public bool dead;
+
+    public GameObject ballon;
+    private int displayText;
+    public TMP_Text text;
 
     public GameObject buff;
 
@@ -19,6 +24,13 @@ public class Mage : MonoBehaviour
             buff.GetComponent<EnemyController>().strengthNeeded = buff.GetComponent<EnemyController>().strengthNeeded * 2;
     }
 
+    private void Update()
+    {
+        displayText = strengthNeeded - currentStrength;
+
+        text.SetText(displayText.ToString());
+    }
+
     void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player") && !dead)
@@ -26,6 +38,8 @@ public class Mage : MonoBehaviour
             currentStrength++;
             if (currentStrength >= strengthNeeded)
             {
+                ballon.SetActive(false);
+                text.gameObject.SetActive(false);
                 anim.SetTrigger("Death");
                 gameObject.layer = 8;
                 dead = true;
@@ -33,6 +47,7 @@ public class Mage : MonoBehaviour
             }
         }
     }
+
     void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("Player") && !dead)
