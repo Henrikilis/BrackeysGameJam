@@ -2,21 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Mage : MonoBehaviour
+public class Ranger : MonoBehaviour
 {
     public Animator anim;
     public int strengthNeeded;
     public int currentStrength;
     public bool dead;
-
-    public GameObject buff;
+    public GameObject bow;
 
     // Start is called before the first frame update
     void Start()
     {
         anim = gameObject.GetComponent<Animator>();
-        if (!dead)
-            buff.GetComponent<EnemyController>().strengthNeeded = buff.GetComponent<EnemyController>().strengthNeeded * 2;
     }
 
     void OnTriggerEnter(Collider other)
@@ -29,7 +26,6 @@ public class Mage : MonoBehaviour
                 anim.SetTrigger("Death");
                 gameObject.layer = 8;
                 dead = true;
-                buff.GetComponent<EnemyController>().strengthNeeded = buff.GetComponent<EnemyController>().strengthNeeded / 2;
             }
         }
     }
@@ -39,5 +35,10 @@ public class Mage : MonoBehaviour
         {
             currentStrength--;
         }
+    }
+
+    void CallAnimationShot()
+    {
+        bow.GetComponent<RangerFire>().ShootArrow();
     }
 }
