@@ -10,7 +10,6 @@ public class hpbar : MonoBehaviour
     public int initialSlimeAmout;
     [SerializeField]
     private int currentHealth;
-    public bool town = false;
     public event Action<float> OnHealthPercentage = delegate { };
 
 
@@ -45,15 +44,6 @@ public class hpbar : MonoBehaviour
 
         OnHealthPercentage(currentHealthpct);
 
-    }
-
-
-    void Update()
-    {
-        if (currentHealth <= 0)
-        {
-           
-        }
     }
 
     private void OnCollisionEnter(Collision collision)
