@@ -22,18 +22,20 @@ public class sawX : MonoBehaviour
     void Start()
     {
         audioClip = gameObject.GetComponent<AudioSource>();
-
+        hp = FindObjectOfType<hpbar>();
         rb = GetComponent<Rigidbody>();
         passedPointA = false;
         passedPointB = false;
 
-        hp = FindObjectOfType<hpbar>();
+        
         sm = FindObjectOfType<slimeManager>();
     }
 
 
     void FixedUpdate()
     {
+        hp = FindObjectOfType<hpbar>();
+
         if (this.gameObject.transform.position.x < pointA.position.x)
             rb.AddForce(new Vector3(sawSpeed, 0, 0), ForceMode.Acceleration);
 
