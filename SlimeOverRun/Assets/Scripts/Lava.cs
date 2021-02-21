@@ -27,8 +27,7 @@ public class Lava : MonoBehaviour
     {
         hp = FindObjectOfType<hpbar>();
         if (arrow)
-            //rb.AddForce(new Vector3(-10, 0), ForceMode.Acceleration);
-            rb.AddForce(gameObject.transform.forward);
+            rb.AddForce(gameObject.transform.forward * 2.5f);
     }
 
     void OnCollisionEnter(Collision other)

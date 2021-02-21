@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028383, g: 0.22571409, b: 0.30692282, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028478, g: 0.22571649, b: 0.30692396, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -190,6 +190,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (46)
@@ -290,6 +294,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (65)
@@ -390,6 +398,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (29)
@@ -490,6 +502,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (55)
@@ -590,6 +606,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (83)
@@ -882,6 +902,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (54)
@@ -982,6 +1006,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (90)
@@ -1082,6 +1110,14 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3b97d80c1a80b8b489e411e36b78b39e, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6be1477a5d2c27e40a013dd0df2022ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
       propertyPath: m_Name
       value: stone_railing_cracked_1 (9)
@@ -1178,6 +1214,14 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8f594802e50ba9b43aa45cde9f98192d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3b97d80c1a80b8b489e411e36b78b39e, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 8f594802e50ba9b43aa45cde9f98192d, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6be1477a5d2c27e40a013dd0df2022ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 8f594802e50ba9b43aa45cde9f98192d, type: 3}
       propertyPath: m_Name
       value: stone_railing
@@ -1274,6 +1318,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (40)
@@ -1316,7 +1364,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1308698282769417188, guid: e22002164ae85334f9c075cb253d727e, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1308698282769417188, guid: e22002164ae85334f9c075cb253d727e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1522,6 +1570,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (9)
@@ -1622,6 +1674,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (77)
@@ -1722,6 +1778,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (43)
@@ -1822,6 +1882,14 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3b97d80c1a80b8b489e411e36b78b39e, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6be1477a5d2c27e40a013dd0df2022ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
       propertyPath: m_Name
       value: stone_railing_cracked_1 (12)
@@ -2014,6 +2082,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (45)
@@ -2114,6 +2186,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (23)
@@ -2214,6 +2290,14 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3b97d80c1a80b8b489e411e36b78b39e, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6be1477a5d2c27e40a013dd0df2022ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
       propertyPath: m_Name
       value: stone_railing_cracked_1 (8)
@@ -2406,6 +2490,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (78)
@@ -2511,6 +2599,14 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3b97d80c1a80b8b489e411e36b78b39e, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6be1477a5d2c27e40a013dd0df2022ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
       propertyPath: m_Name
       value: stone_railing_cracked_1 (20)
@@ -2607,6 +2703,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (24)
@@ -2707,6 +2807,14 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3b97d80c1a80b8b489e411e36b78b39e, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6be1477a5d2c27e40a013dd0df2022ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
       propertyPath: m_Name
       value: stone_railing_cracked_1 (18)
@@ -2803,6 +2911,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (30)
@@ -2903,6 +3015,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (85)
@@ -3195,6 +3311,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (72)
@@ -3249,7 +3369,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4542118230918012463, guid: 2db73196563980146b3c84521a7d6a59, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 4542118230918012463, guid: 2db73196563980146b3c84521a7d6a59, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3374,6 +3494,14 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8f594802e50ba9b43aa45cde9f98192d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3b97d80c1a80b8b489e411e36b78b39e, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 8f594802e50ba9b43aa45cde9f98192d, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6be1477a5d2c27e40a013dd0df2022ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 8f594802e50ba9b43aa45cde9f98192d, type: 3}
       propertyPath: m_Name
       value: stone_railing (10)
@@ -3470,6 +3598,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (34)
@@ -3570,6 +3702,14 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 98f3a55dbe18a644da24e8b7b2d7516f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3b97d80c1a80b8b489e411e36b78b39e, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 98f3a55dbe18a644da24e8b7b2d7516f, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6be1477a5d2c27e40a013dd0df2022ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 98f3a55dbe18a644da24e8b7b2d7516f, type: 3}
       propertyPath: m_Name
       value: stone_railing_cracked_2 (4)
@@ -3666,6 +3806,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (41)
@@ -3771,6 +3915,14 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3b97d80c1a80b8b489e411e36b78b39e, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6be1477a5d2c27e40a013dd0df2022ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
       propertyPath: m_Name
       value: stone_railing_cracked_1 (13)
@@ -3867,6 +4019,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (36)
@@ -3967,6 +4123,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (67)
@@ -4163,6 +4323,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (69)
@@ -4263,6 +4427,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (11)
@@ -4363,6 +4531,14 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8f594802e50ba9b43aa45cde9f98192d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3b97d80c1a80b8b489e411e36b78b39e, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 8f594802e50ba9b43aa45cde9f98192d, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6be1477a5d2c27e40a013dd0df2022ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 8f594802e50ba9b43aa45cde9f98192d, type: 3}
       propertyPath: m_Name
       value: stone_railing (7)
@@ -4459,6 +4635,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (82)
@@ -4559,6 +4739,14 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8f594802e50ba9b43aa45cde9f98192d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3b97d80c1a80b8b489e411e36b78b39e, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 8f594802e50ba9b43aa45cde9f98192d, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6be1477a5d2c27e40a013dd0df2022ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 8f594802e50ba9b43aa45cde9f98192d, type: 3}
       propertyPath: m_Name
       value: stone_railing (13)
@@ -4655,6 +4843,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (27)
@@ -4755,6 +4947,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (62)
@@ -4809,7 +5005,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7385523070625270639, guid: 2ac32c49fd2da784a969a4c3b7d3c4cd, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7385523070625270639, guid: 2ac32c49fd2da784a969a4c3b7d3c4cd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4929,6 +5125,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (20)
@@ -5029,6 +5229,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (2)
@@ -5129,6 +5333,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (86)
@@ -5175,7 +5383,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 796523202740880193, guid: ac19bb746d2dc624ebe6bc5d0f299a2a, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 796523202740880193, guid: ac19bb746d2dc624ebe6bc5d0f299a2a, type: 3}
       propertyPath: m_LocalScale.x
@@ -5400,6 +5608,14 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3b97d80c1a80b8b489e411e36b78b39e, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6be1477a5d2c27e40a013dd0df2022ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
       propertyPath: m_Name
       value: stone_railing_cracked_1 (7)
@@ -5496,6 +5712,14 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3b97d80c1a80b8b489e411e36b78b39e, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6be1477a5d2c27e40a013dd0df2022ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
       propertyPath: m_Name
       value: stone_railing_cracked_1 (17)
@@ -5592,6 +5816,14 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 98f3a55dbe18a644da24e8b7b2d7516f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3b97d80c1a80b8b489e411e36b78b39e, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 98f3a55dbe18a644da24e8b7b2d7516f, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6be1477a5d2c27e40a013dd0df2022ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 98f3a55dbe18a644da24e8b7b2d7516f, type: 3}
       propertyPath: m_Name
       value: stone_railing_cracked_2 (5)
@@ -5636,6 +5868,7 @@ GameObject:
   - component: {fileID: 806741598}
   - component: {fileID: 806741599}
   - component: {fileID: 806741600}
+  - component: {fileID: 806741601}
   m_Layer: 0
   m_Name: Lava
   m_TagString: Untagged
@@ -5690,7 +5923,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4890d243f4983bf47b86982b9fa8ce92, type: 2}
+  - {fileID: 2100000, guid: c324d2bdf1ffde34691b5cc684b5f674, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5851,6 +6084,23 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &806741601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 806741593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: bf029c0ca9d44f84c8375cf1183b507f, type: 2}
 --- !u!1001 &832623623
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5918,6 +6168,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (18)
@@ -6018,6 +6272,14 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8f594802e50ba9b43aa45cde9f98192d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3b97d80c1a80b8b489e411e36b78b39e, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 8f594802e50ba9b43aa45cde9f98192d, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6be1477a5d2c27e40a013dd0df2022ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 8f594802e50ba9b43aa45cde9f98192d, type: 3}
       propertyPath: m_Name
       value: stone_railing (8)
@@ -6056,7 +6318,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1308698282769417188, guid: e22002164ae85334f9c075cb253d727e, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 1308698282769417188, guid: e22002164ae85334f9c075cb253d727e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6292,6 +6554,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (80)
@@ -6392,6 +6658,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (61)
@@ -6492,6 +6762,14 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3b97d80c1a80b8b489e411e36b78b39e, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6be1477a5d2c27e40a013dd0df2022ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
       propertyPath: m_Name
       value: stone_railing_cracked_1 (15)
@@ -6675,7 +6953,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 796523202740880193, guid: ac19bb746d2dc624ebe6bc5d0f299a2a, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 796523202740880193, guid: ac19bb746d2dc624ebe6bc5d0f299a2a, type: 3}
       propertyPath: m_LocalScale.x
@@ -6799,6 +7077,14 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8f594802e50ba9b43aa45cde9f98192d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3b97d80c1a80b8b489e411e36b78b39e, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 8f594802e50ba9b43aa45cde9f98192d, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6be1477a5d2c27e40a013dd0df2022ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 8f594802e50ba9b43aa45cde9f98192d, type: 3}
       propertyPath: m_Name
       value: stone_railing (6)
@@ -6895,6 +7181,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (79)
@@ -7091,6 +7381,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (13)
@@ -7440,6 +7734,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (5)
@@ -7540,6 +7838,14 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8f594802e50ba9b43aa45cde9f98192d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3b97d80c1a80b8b489e411e36b78b39e, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 8f594802e50ba9b43aa45cde9f98192d, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6be1477a5d2c27e40a013dd0df2022ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 8f594802e50ba9b43aa45cde9f98192d, type: 3}
       propertyPath: m_Name
       value: stone_railing (14)
@@ -7636,6 +7942,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (84)
@@ -7736,6 +8046,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (14)
@@ -7769,98 +8083,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.011124091, y: 0.011124089, z: 0.00047828208}
   m_Center: {x: 0, y: 0, z: 0.000030429745}
---- !u!1 &1100405371
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1100405373}
-  - component: {fileID: 1100405372}
-  m_Layer: 0
-  m_Name: Directional Light
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!108 &1100405372
-Light:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1100405371}
-  m_Enabled: 1
-  serializedVersion: 10
-  m_Type: 1
-  m_Shape: 0
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1
-  m_Range: 20.56
-  m_SpotAngle: 30
-  m_InnerSpotAngle: 21.80208
-  m_CookieSize: 10
-  m_Shadows:
-    m_Type: 1
-    m_Resolution: -1
-    m_CustomResolution: -1
-    m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
-    m_CullingMatrixOverride:
-      e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    m_UseCullingMatrixOverride: 0
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_Flare: {fileID: 0}
-  m_RenderMode: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingLayerMask: 1
-  m_Lightmapping: 2
-  m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
-  m_UseBoundingSphereOverride: 0
-  m_ShadowRadius: 0
-  m_ShadowAngle: 0
---- !u!4 &1100405373
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1100405371}
-  m_LocalRotation: {x: 0.40821788, y: 0.23456976, z: -0.10938167, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 50, y: 30, z: 0}
 --- !u!1001 &1116304404
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7928,6 +8150,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (10)
@@ -8028,6 +8254,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (58)
@@ -8078,7 +8308,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7385523070625270639, guid: 2ac32c49fd2da784a969a4c3b7d3c4cd, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 7385523070625270639, guid: 2ac32c49fd2da784a969a4c3b7d3c4cd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8198,6 +8428,14 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3b97d80c1a80b8b489e411e36b78b39e, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6be1477a5d2c27e40a013dd0df2022ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
       propertyPath: m_Name
       value: stone_railing_cracked_1
@@ -8294,6 +8532,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (3)
@@ -8394,6 +8636,14 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8f594802e50ba9b43aa45cde9f98192d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3b97d80c1a80b8b489e411e36b78b39e, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 8f594802e50ba9b43aa45cde9f98192d, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6be1477a5d2c27e40a013dd0df2022ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 8f594802e50ba9b43aa45cde9f98192d, type: 3}
       propertyPath: m_Name
       value: stone_railing (9)
@@ -8652,6 +8902,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (32)
@@ -8752,6 +9006,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (12)
@@ -9040,6 +9298,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (59)
@@ -9140,6 +9402,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (25)
@@ -9240,6 +9506,14 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8f594802e50ba9b43aa45cde9f98192d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3b97d80c1a80b8b489e411e36b78b39e, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 8f594802e50ba9b43aa45cde9f98192d, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6be1477a5d2c27e40a013dd0df2022ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 8f594802e50ba9b43aa45cde9f98192d, type: 3}
       propertyPath: m_Name
       value: stone_railing (16)
@@ -9336,6 +9610,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (35)
@@ -9436,6 +9714,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (48)
@@ -9536,6 +9818,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (33)
@@ -9636,6 +9922,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (42)
@@ -9736,6 +10026,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (73)
@@ -9836,6 +10130,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (68)
@@ -9936,6 +10234,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (47)
@@ -10036,6 +10338,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (38)
@@ -10328,6 +10634,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1
@@ -10428,6 +10738,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (15)
@@ -10528,6 +10842,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (44)
@@ -10628,6 +10946,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (64)
@@ -10728,6 +11050,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (28)
@@ -10828,6 +11154,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (26)
@@ -10928,6 +11258,14 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8f594802e50ba9b43aa45cde9f98192d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3b97d80c1a80b8b489e411e36b78b39e, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 8f594802e50ba9b43aa45cde9f98192d, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6be1477a5d2c27e40a013dd0df2022ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 8f594802e50ba9b43aa45cde9f98192d, type: 3}
       propertyPath: m_Name
       value: stone_railing (5)
@@ -11024,6 +11362,14 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3b97d80c1a80b8b489e411e36b78b39e, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6be1477a5d2c27e40a013dd0df2022ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
       propertyPath: m_Name
       value: stone_railing_cracked_1 (6)
@@ -11120,6 +11466,14 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3b97d80c1a80b8b489e411e36b78b39e, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6be1477a5d2c27e40a013dd0df2022ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
       propertyPath: m_Name
       value: stone_railing_cracked_1 (2)
@@ -11216,6 +11570,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (21)
@@ -11354,7 +11712,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1308698282769417188, guid: e22002164ae85334f9c075cb253d727e, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 1308698282769417188, guid: e22002164ae85334f9c075cb253d727e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11626,6 +11984,14 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8f594802e50ba9b43aa45cde9f98192d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3b97d80c1a80b8b489e411e36b78b39e, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 8f594802e50ba9b43aa45cde9f98192d, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6be1477a5d2c27e40a013dd0df2022ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 8f594802e50ba9b43aa45cde9f98192d, type: 3}
       propertyPath: m_Name
       value: stone_railing (15)
@@ -11722,6 +12088,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (17)
@@ -11822,6 +12192,14 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3b97d80c1a80b8b489e411e36b78b39e, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6be1477a5d2c27e40a013dd0df2022ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
       propertyPath: m_Name
       value: stone_railing_cracked_1 (4)
@@ -11918,6 +12296,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (7)
@@ -12018,6 +12400,14 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 98f3a55dbe18a644da24e8b7b2d7516f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3b97d80c1a80b8b489e411e36b78b39e, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 98f3a55dbe18a644da24e8b7b2d7516f, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6be1477a5d2c27e40a013dd0df2022ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 98f3a55dbe18a644da24e8b7b2d7516f, type: 3}
       propertyPath: m_Name
       value: stone_railing_cracked_2 (3)
@@ -12119,6 +12509,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (6)
@@ -12351,6 +12745,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (37)
@@ -12451,6 +12849,14 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 98f3a55dbe18a644da24e8b7b2d7516f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3b97d80c1a80b8b489e411e36b78b39e, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 98f3a55dbe18a644da24e8b7b2d7516f, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6be1477a5d2c27e40a013dd0df2022ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 98f3a55dbe18a644da24e8b7b2d7516f, type: 3}
       propertyPath: m_Name
       value: stone_railing_cracked_2 (1)
@@ -12547,6 +12953,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (52)
@@ -12593,7 +13003,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 796523202740880193, guid: ac19bb746d2dc624ebe6bc5d0f299a2a, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 796523202740880193, guid: ac19bb746d2dc624ebe6bc5d0f299a2a, type: 3}
       propertyPath: m_LocalScale.x
@@ -12722,6 +13132,14 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3b97d80c1a80b8b489e411e36b78b39e, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6be1477a5d2c27e40a013dd0df2022ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
       propertyPath: m_Name
       value: stone_railing_cracked_1 (10)
@@ -12818,6 +13236,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (19)
@@ -13085,6 +13507,14 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8f594802e50ba9b43aa45cde9f98192d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3b97d80c1a80b8b489e411e36b78b39e, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 8f594802e50ba9b43aa45cde9f98192d, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6be1477a5d2c27e40a013dd0df2022ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 8f594802e50ba9b43aa45cde9f98192d, type: 3}
       propertyPath: m_Name
       value: stone_railing (11)
@@ -13181,6 +13611,14 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3b97d80c1a80b8b489e411e36b78b39e, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6be1477a5d2c27e40a013dd0df2022ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
       propertyPath: m_Name
       value: stone_railing_cracked_1 (16)
@@ -13277,6 +13715,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (53)
@@ -13377,6 +13819,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (63)
@@ -13477,6 +13923,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (66)
@@ -13577,6 +14027,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (49)
@@ -13677,6 +14131,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (1)
@@ -13777,6 +14235,14 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3b97d80c1a80b8b489e411e36b78b39e, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6be1477a5d2c27e40a013dd0df2022ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
       propertyPath: m_Name
       value: stone_railing_cracked_1 (11)
@@ -13873,6 +14339,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (31)
@@ -13973,6 +14443,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (50)
@@ -14073,6 +14547,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (60)
@@ -14173,6 +14651,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (76)
@@ -14339,6 +14821,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (95)
@@ -14439,6 +14925,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (8)
@@ -14539,6 +15029,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (56)
@@ -14639,6 +15133,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (81)
@@ -14672,6 +15170,67 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.011124091, y: 0.011124089, z: 0.00047828208}
   m_Center: {x: 0, y: 0, z: 0.000030429745}
+--- !u!1001 &1846602665
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2885005741730492209, guid: 501df16e894c4ba4e96fd2639f272f9f, type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2885005741730492209, guid: 501df16e894c4ba4e96fd2639f272f9f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 15.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2885005741730492209, guid: 501df16e894c4ba4e96fd2639f272f9f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -8.934077
+      objectReference: {fileID: 0}
+    - target: {fileID: 2885005741730492209, guid: 501df16e894c4ba4e96fd2639f272f9f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2885005741730492209, guid: 501df16e894c4ba4e96fd2639f272f9f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2885005741730492209, guid: 501df16e894c4ba4e96fd2639f272f9f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2885005741730492209, guid: 501df16e894c4ba4e96fd2639f272f9f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2885005741730492209, guid: 501df16e894c4ba4e96fd2639f272f9f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2885005741730492209, guid: 501df16e894c4ba4e96fd2639f272f9f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2885005741730492209, guid: 501df16e894c4ba4e96fd2639f272f9f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2885005741730492209, guid: 501df16e894c4ba4e96fd2639f272f9f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2885005741730492212, guid: 501df16e894c4ba4e96fd2639f272f9f, type: 3}
+      propertyPath: m_Name
+      value: Box Volume
+      objectReference: {fileID: 0}
+    - target: {fileID: 2885005741730492214, guid: 501df16e894c4ba4e96fd2639f272f9f, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 501df16e894c4ba4e96fd2639f272f9f, type: 3}
 --- !u!1001 &1858792608
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14739,6 +15298,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (74)
@@ -14839,6 +15402,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (51)
@@ -14939,6 +15506,14 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3b97d80c1a80b8b489e411e36b78b39e, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6be1477a5d2c27e40a013dd0df2022ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
       propertyPath: m_Name
       value: stone_railing_cracked_1 (21)
@@ -15035,6 +15610,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (22)
@@ -15135,6 +15714,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (57)
@@ -15235,6 +15818,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (4)
@@ -15397,7 +15984,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1308698282769417188, guid: e22002164ae85334f9c075cb253d727e, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 1308698282769417188, guid: e22002164ae85334f9c075cb253d727e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15537,6 +16124,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (70)
@@ -15637,6 +16228,14 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3b97d80c1a80b8b489e411e36b78b39e, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6be1477a5d2c27e40a013dd0df2022ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
       propertyPath: m_Name
       value: stone_railing_cracked_1 (5)
@@ -15733,6 +16332,14 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8f594802e50ba9b43aa45cde9f98192d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3b97d80c1a80b8b489e411e36b78b39e, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 8f594802e50ba9b43aa45cde9f98192d, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6be1477a5d2c27e40a013dd0df2022ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 8f594802e50ba9b43aa45cde9f98192d, type: 3}
       propertyPath: m_Name
       value: stone_railing (4)
@@ -15771,7 +16378,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8659348507049327712, guid: 980d305b8ef5aa5489a3e92602cd18cd, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8659348507049327712, guid: 980d305b8ef5aa5489a3e92602cd18cd, type: 3}
       propertyPath: m_LocalScale.x
@@ -16118,6 +16725,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (75)
@@ -16151,6 +16762,63 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.011124091, y: 0.011124089, z: 0.00047828208}
   m_Center: {x: 0, y: 0, z: 0.000030429745}
+--- !u!1001 &2024161601
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6640495655640453922, guid: 8d43900541c93234fa77a98260f089c3, type: 3}
+      propertyPath: m_Name
+      value: Directional Light
+      objectReference: {fileID: 0}
+    - target: {fileID: 6640495655640453924, guid: 8d43900541c93234fa77a98260f089c3, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6640495655640453924, guid: 8d43900541c93234fa77a98260f089c3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6640495655640453924, guid: 8d43900541c93234fa77a98260f089c3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6640495655640453924, guid: 8d43900541c93234fa77a98260f089c3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6640495655640453924, guid: 8d43900541c93234fa77a98260f089c3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.6639094
+      objectReference: {fileID: 0}
+    - target: {fileID: 6640495655640453924, guid: 8d43900541c93234fa77a98260f089c3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.309586
+      objectReference: {fileID: 0}
+    - target: {fileID: 6640495655640453924, guid: 8d43900541c93234fa77a98260f089c3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.61694264
+      objectReference: {fileID: 0}
+    - target: {fileID: 6640495655640453924, guid: 8d43900541c93234fa77a98260f089c3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.28768504
+      objectReference: {fileID: 0}
+    - target: {fileID: 6640495655640453924, guid: 8d43900541c93234fa77a98260f089c3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 6640495655640453924, guid: 8d43900541c93234fa77a98260f089c3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 85.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6640495655640453924, guid: 8d43900541c93234fa77a98260f089c3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8d43900541c93234fa77a98260f089c3, type: 3}
 --- !u!1001 &2029600355
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16218,6 +16886,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (71)
@@ -16414,6 +17086,14 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 98f3a55dbe18a644da24e8b7b2d7516f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3b97d80c1a80b8b489e411e36b78b39e, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 98f3a55dbe18a644da24e8b7b2d7516f, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6be1477a5d2c27e40a013dd0df2022ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 98f3a55dbe18a644da24e8b7b2d7516f, type: 3}
       propertyPath: m_Name
       value: stone_railing_cracked_2 (2)
@@ -16510,6 +17190,14 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8f594802e50ba9b43aa45cde9f98192d, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3b97d80c1a80b8b489e411e36b78b39e, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 8f594802e50ba9b43aa45cde9f98192d, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6be1477a5d2c27e40a013dd0df2022ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 8f594802e50ba9b43aa45cde9f98192d, type: 3}
       propertyPath: m_Name
       value: stone_railing (12)
@@ -16672,6 +17360,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (94)
@@ -16772,6 +17464,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (39)
@@ -16872,6 +17568,14 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3b97d80c1a80b8b489e411e36b78b39e, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6be1477a5d2c27e40a013dd0df2022ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
       propertyPath: m_Name
       value: stone_railing_cracked_1 (19)
@@ -17064,6 +17768,14 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3b97d80c1a80b8b489e411e36b78b39e, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 6be1477a5d2c27e40a013dd0df2022ee, type: 2}
     - target: {fileID: 919132149155446097, guid: 89de87dccce93d146b586b0b7a229fe9, type: 3}
       propertyPath: m_Name
       value: stone_railing_cracked_1 (14)
@@ -17256,6 +17968,10 @@ PrefabInstance:
       propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 737efe2a56f6a5941bac74f6de8e77ab, type: 2}
     - target: {fileID: 919132149155446097, guid: 0412e69f904a2d348bc00a82b2824692, type: 3}
       propertyPath: m_Name
       value: slab_1 (16)
@@ -17306,7 +18022,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 203941727615366484, guid: 5ab3b8feb27c1ee4fa1b1ba4995828a6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.6
+      value: -4.25
       objectReference: {fileID: 0}
     - target: {fileID: 203941727615366484, guid: 5ab3b8feb27c1ee4fa1b1ba4995828a6, type: 3}
       propertyPath: m_LocalPosition.y

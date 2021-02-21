@@ -32,7 +32,7 @@ public class Ranger : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player") && !dead)
+        if (other.CompareTag("Player") || other.CompareTag("MainSlime") && !dead)
         {
             currentStrength++;
             if (currentStrength >= strengthNeeded)
@@ -48,7 +48,7 @@ public class Ranger : MonoBehaviour
     }
     void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("Player") && !dead)
+        if (other.CompareTag("Player") || other.CompareTag("MainSlime") && !dead)
         {
             currentStrength--;
         }

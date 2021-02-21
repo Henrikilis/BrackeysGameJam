@@ -193,6 +193,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0d029485ea80ef46ad28942999f59d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioClip: {fileID: 0}
   anim: {fileID: 0}
   connection: {fileID: 0}
   weightNeeded: 3
@@ -379,7 +380,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2093, y: 56}
+  m_AnchoredPosition: {x: -1922, y: -13}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1500510748799573082
@@ -507,7 +508,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8743735471782054404}
-  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071067}
+  m_LocalRotation: {x: 0.84204555, y: 0.3374695, z: 0.15654208, w: 0.39059976}
   m_LocalPosition: {x: 0, y: 0, z: 0.00000015481}
   m_LocalScale: {x: 0.000008773607, y: 0.000050513758, z: 0.01}
   m_Children:
@@ -515,7 +516,7 @@ RectTransform:
   - {fileID: 4746157652001355007}
   m_Father: {fileID: 6292070219617794490}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 33.515, y: 140.772, z: 124.072}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: -0.00000033829, y: -1.3e-14}
