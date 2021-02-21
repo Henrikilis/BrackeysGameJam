@@ -14,6 +14,9 @@ public class EnemyController : MonoBehaviour
     Camera cam;
     public Animator anim;
 
+    public AudioClip warriorDeath;
+    public AudioClip slimeDeath;
+
     public GameObject ballon;
     private int displayText;
     public TMP_Text text;
@@ -42,6 +45,8 @@ public class EnemyController : MonoBehaviour
             currentStrength++;
             if (currentStrength >= strengthNeeded)
             {
+                audioClip.clip = warriorDeath;
+                audioClip.Play();
                 ballon.SetActive(false);
                 text.gameObject.SetActive(false);
                 anim.SetTrigger("Death");
@@ -62,6 +67,7 @@ public class EnemyController : MonoBehaviour
     {
         if (other.CompareTag("Player") && attacking && !dead)
         {
+            audioClip.clip = slimeDeath;
             audioClip.Play();
             hp.decreaseHealth(1);
             other.gameObject.SetActive(false);
@@ -70,6 +76,7 @@ public class EnemyController : MonoBehaviour
         if (other.CompareTag("MainSlime") && attacking && !dead)
         {
             hp.decreaseHealth(1);
+            audioClip.clip = slimeDeath;
             audioClip.Play();
             cam = other.gameObject.GetComponentInChildren<Camera>();
             cam.gameObject.transform.parent = null;

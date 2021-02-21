@@ -1173,6 +1173,8 @@ MonoBehaviour:
   hp: {fileID: 0}
   sm: {fileID: 0}
   anim: {fileID: 0}
+  warriorDeath: {fileID: 8300000, guid: 21450b0eba7b52b4db676d2c97023f31, type: 3}
+  slimeDeath: {fileID: 8300000, guid: 6f19d4b17c785ec4d84879e4928a642d, type: 3}
   ballon: {fileID: 6703029830949619821}
   text: {fileID: 3655882361384797328}
   audioClip: {fileID: 0}
