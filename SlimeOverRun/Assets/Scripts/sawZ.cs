@@ -6,7 +6,7 @@ public class sawZ : MonoBehaviour
 {
 
     public Rigidbody rb;
-
+    public AudioSource audioClip;
     public Transform pointA;
     public Transform pointB;
 
@@ -22,6 +22,7 @@ public class sawZ : MonoBehaviour
 
     void Start()
     {
+        audioClip = gameObject.GetComponent<AudioSource>();
         rb = GetComponent<Rigidbody>();
         passedPointA = false;
         passedPointB = false;
@@ -56,11 +57,12 @@ public class sawZ : MonoBehaviour
         {
             hp.decreaseHealth(1);
             other.gameObject.SetActive(false);
+            audioClip.Play();
         }
         if (other.gameObject.CompareTag("MainSlime"))
         {
             hp.decreaseHealth(1);
-
+            audioClip.Play();
             cam = other.gameObject.GetComponentInChildren<Camera>();
             cam.gameObject.transform.parent = null;
             other.gameObject.SetActive(false);

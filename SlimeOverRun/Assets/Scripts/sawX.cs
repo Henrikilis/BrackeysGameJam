@@ -5,6 +5,7 @@ using UnityEngine;
 public class sawX : MonoBehaviour
 {
     public Rigidbody rb;
+    public AudioSource audioClip;
 
     public Transform pointA;
     public Transform pointB;
@@ -20,6 +21,8 @@ public class sawX : MonoBehaviour
 
     void Start()
     {
+        audioClip = gameObject.GetComponent<AudioSource>();
+
         rb = GetComponent<Rigidbody>();
         passedPointA = false;
         passedPointB = false;
@@ -53,12 +56,13 @@ public class sawX : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             hp.decreaseHealth(1);
+            audioClip.Play();
             other.gameObject.SetActive(false);
         }
         if (other.gameObject.CompareTag("MainSlime"))
         {
-             hp.decreaseHealth(1);
-
+            hp.decreaseHealth(1);
+            audioClip.Play();
             cam = other.gameObject.GetComponentInChildren<Camera>();
             cam.gameObject.transform.parent = null;
             other.gameObject.SetActive(false);

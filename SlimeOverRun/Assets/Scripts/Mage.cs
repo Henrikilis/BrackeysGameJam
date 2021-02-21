@@ -5,6 +5,7 @@ using TMPro;
 
 public class Mage : MonoBehaviour
 {
+    public AudioSource audioclip;
     public Animator anim;
     public int strengthNeeded;
     public int currentStrength;
@@ -19,6 +20,8 @@ public class Mage : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        audioclip = gameObject.GetComponent<AudioSource>();
+
         anim = gameObject.GetComponent<Animator>();
         if (!dead)
         {
@@ -41,6 +44,7 @@ public class Mage : MonoBehaviour
             currentStrength++;
             if (currentStrength >= strengthNeeded)
             {
+                audioclip.Play();
                 ballon.SetActive(false);
                 text.gameObject.SetActive(false);
                 anim.SetTrigger("Death");
