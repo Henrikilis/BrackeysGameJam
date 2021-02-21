@@ -5,6 +5,7 @@ using TMPro;
 
 public class Ranger : MonoBehaviour
 {
+    public AudioSource audioClip;
     public Animator anim;
     public int strengthNeeded;
     public int currentStrength;
@@ -18,6 +19,7 @@ public class Ranger : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        audioClip = gameObject.GetComponent<AudioSource>();
         anim = gameObject.GetComponent<Animator>();
     }
 
@@ -35,6 +37,7 @@ public class Ranger : MonoBehaviour
             currentStrength++;
             if (currentStrength >= strengthNeeded)
             {
+                audioClip.Play();
                 ballon.SetActive(false);
                 text.gameObject.SetActive(false);
                 anim.SetTrigger("Death");

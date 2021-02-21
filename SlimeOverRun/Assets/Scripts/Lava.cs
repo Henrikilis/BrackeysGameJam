@@ -5,6 +5,7 @@ using UnityEngine;
 public class Lava : MonoBehaviour
 {
     public AudioSource audioClip;
+    public AudioClip lavaDeath, arrowDeath;
     public slimeManager sm;
     public hpbar hp;
     Camera cam;
@@ -34,11 +35,17 @@ public class Lava : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            audioClip.clip = lavaDeath;
             audioClip.Play();
             hp.decreaseHealth(1);
             other.gameObject.SetActive(false);
             if (arrow)
-                Destroy(gameObject);
+            {
+                audioClip.clip = arrowDeath;
+                audioClip.Play();
+                Destroy(gameObject);              
+            }
+               
         }
         if (other.gameObject.CompareTag("MainSlime"))
         {
