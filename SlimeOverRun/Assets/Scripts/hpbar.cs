@@ -14,22 +14,16 @@ public class hpbar : MonoBehaviour
     public event Action<float> OnHealthPercentage = delegate { };
 
 
-    void Start()
-    {
 
+    private void OnEnable()
+    {
         sm = FindObjectsOfType<SlimeMovement>();
-        
+
 
         for (int i = 0; i < sm.Length; i++)
         {
             initialSlimeAmout++;
         }
-        currentHealth = initialSlimeAmout;
-        
-    }
-
-    private void OnEnable()
-    {
         currentHealth = initialSlimeAmout;
     }
 
@@ -46,7 +40,7 @@ public class hpbar : MonoBehaviour
     public void decreaseHealth(int amount)
     {
         currentHealth -= amount;
-
+        Debug.Log("função");
         float currentHealthpct = (float)currentHealth / (float)initialSlimeAmout;
 
         OnHealthPercentage(currentHealthpct);

@@ -33,7 +33,7 @@ public class Paladin : MonoBehaviour
     private void Update()
     {
         displayText = strengthNeeded - currentStrength;
-
+        hp = FindObjectOfType<hpbar>();
         text.SetText(displayText.ToString());
     }
 

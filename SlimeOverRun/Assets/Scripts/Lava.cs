@@ -35,10 +35,15 @@ public class Lava : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            audioClip.clip = lavaDeath;
-            audioClip.Play();
             hp.decreaseHealth(1);
             other.gameObject.SetActive(false);
+
+            if (!arrow)
+            {
+                audioClip.clip = lavaDeath;
+                audioClip.Play();
+            }         
+            
             if (arrow)
             {
                 audioClip.clip = arrowDeath;
@@ -50,12 +55,16 @@ public class Lava : MonoBehaviour
         if (other.gameObject.CompareTag("MainSlime"))
         {
             hp.decreaseHealth(1);
-            audioClip.clip = lavaDeath;
-            audioClip.Play();
             cam = other.gameObject.GetComponentInChildren<Camera>();
             cam.gameObject.transform.parent = null;
             other.gameObject.SetActive(false);
             sm.isDead();
+
+            if (!arrow)
+            {
+                audioClip.clip = lavaDeath;
+                audioClip.Play();
+            }
 
             if (arrow)
             {

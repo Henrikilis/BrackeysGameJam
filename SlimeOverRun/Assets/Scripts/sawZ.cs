@@ -27,13 +27,16 @@ public class sawZ : MonoBehaviour
         passedPointA = false;
         passedPointB = false;
 
-        hp = FindObjectOfType<hpbar>();
+        
         sm = FindObjectOfType<slimeManager>();
     }
 
    
     void FixedUpdate()
     {
+
+        hp = FindObjectOfType<hpbar>();
+
         if (this.gameObject.transform.position.z < pointA.position.z)
             rb.AddForce(new Vector3(0, 0, sawSpeed), ForceMode.Acceleration);
         
