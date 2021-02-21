@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level 3.unity
     guid: e6bd4795dad27d142a158ac6e8126e22
+  - enabled: 1
+    path: Assets/Scenes/Level 4.unity
+    guid: cf1b5c64bb39b374780c15ff605d075f
+  - enabled: 1
+    path: Assets/Scenes/Tela Final.unity
+    guid: 449a1059decbb604db092d23d0748d28
   m_configObjects: {}
