@@ -5,10 +5,11 @@ using UnityEngine;
 public class PaladinDeath : MonoBehaviour
 {
     public GameObject mainObject;
+    public AudioSource audioClip;
     // Start is called before the first frame update
     void Start()
     {
-        
+        audioClip = gameObject.GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -23,6 +24,7 @@ public class PaladinDeath : MonoBehaviour
             mainObject.GetComponent<Paladin>().currentStrength++;
             if (mainObject.GetComponent<Paladin>().currentStrength >= mainObject.GetComponent<Paladin>().strengthNeeded)
             {
+                audioClip.Play();
                 mainObject.GetComponent<Paladin>().ballon.SetActive(false);
                 mainObject.GetComponent<Paladin>().text.gameObject.SetActive(false);
                 mainObject.GetComponent<Paladin>().anim.SetTrigger("Death");

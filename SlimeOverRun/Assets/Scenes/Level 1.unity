@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028338, g: 0.22571343, b: 0.30692223, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028383, g: 0.22571409, b: 0.30692282, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2723,6 +2723,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   audioClip: {fileID: 0}
+  lavaDeath: {fileID: 8300000, guid: f13f9c2f2658977418e765396894fe08, type: 3}
+  arrowDeath: {fileID: 8300000, guid: 6f19d4b17c785ec4d84879e4928a642d, type: 3}
   sm: {fileID: 0}
   hp: {fileID: 0}
   arrow: 0

@@ -5,6 +5,9 @@ using TMPro;
 
 public class Paladin : MonoBehaviour
 {
+    public AudioSource audioClip;
+    public AudioClip PaladinDeath, SlimeDeath;
+
     public int strengthNeeded;
     public int currentStrength;
     public bool attacking;
@@ -21,6 +24,7 @@ public class Paladin : MonoBehaviour
     // Update is called once per frame
     void Start()
     {
+        audioClip = gameObject.GetComponent<AudioSource>();
         anim = gameObject.GetComponent<Animator>();
         hp = FindObjectOfType<hpbar>();
         sm = FindObjectOfType<slimeManager>();
@@ -46,12 +50,15 @@ public class Paladin : MonoBehaviour
         if (other.CompareTag("Player") && attacking && !dead)
         {
             hp.decreaseHealth(1);
+            audioClip.clip = SlimeDeath;
+            audioClip.Play();
             other.gameObject.SetActive(false);
         }
         if (other.CompareTag("MainSlime") && attacking && !dead)
         {
             hp.decreaseHealth(1);
-
+            audioClip.clip = SlimeDeath;
+            audioClip.Play();
             cam = other.gameObject.GetComponentInChildren<Camera>();
             cam.gameObject.transform.parent = null;
             other.gameObject.SetActive(false);
