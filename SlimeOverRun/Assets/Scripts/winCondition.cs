@@ -27,13 +27,13 @@ public class winCondition : MonoBehaviour
             slimeTotal++;
         }
 
-        slimeToWin = slimeTotal / 3;
+        slimeToWin = 1;
 
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") || other.CompareTag("MainSlime"))
         {
             slimeCount++;
             if (slimeCount >= slimeToWin)
@@ -45,7 +45,7 @@ public class winCondition : MonoBehaviour
 
     void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player") || other.CompareTag("MainSlime"))
         {
             slimeCount--;
         }

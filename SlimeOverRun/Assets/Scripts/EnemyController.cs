@@ -14,13 +14,17 @@ public class EnemyController : MonoBehaviour
     Camera cam;
     public Animator anim;
 
+    public AudioClip warriorDeath;
+    public AudioClip slimeDeath;
+
     public GameObject ballon;
     private int displayText;
     public TMP_Text text;
-
+    public AudioSource audioClip;
     // Update is called once per frame
     void Start()
     {
+        audioClip = gameObject.GetComponent<AudioSource>();
         anim = gameObject.GetComponent<Animator>();
         hp = FindObjectOfType<hpbar>();
         sm = FindObjectOfType<slimeManager>();
@@ -28,6 +32,7 @@ public class EnemyController : MonoBehaviour
 
     private void Update()
     {
+        hp = FindObjectOfType<hpbar>();
         displayText = strengthNeeded - currentStrength;
 
         text.SetText(displayText.ToString());
@@ -35,11 +40,13 @@ public class EnemyController : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player") && !dead)
+        if (other.CompareTag("Player") || other.CompareTag("MainSlime") && !dead)
         {
             currentStrength++;
             if (currentStrength >= strengthNeeded)
             {
+                audioClip.clip = warriorDeath;
+                audioClip.Play();
                 ballon.SetActive(false);
                 text.gameObject.SetActive(false);
                 anim.SetTrigger("Death");
@@ -51,7 +58,7 @@ public class EnemyController : MonoBehaviour
     }
     void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("Player") && !dead)
+        if (other.CompareTag("Player") || other.CompareTag("MainSlime") && !dead)
         {
             currentStrength--;
         }
@@ -60,6 +67,8 @@ public class EnemyController : MonoBehaviour
     {
         if (other.CompareTag("Player") && attacking && !dead)
         {
+            audioClip.clip = slimeDeath;
+            audioClip.Play();
             hp.decreaseHealth(1);
             other.gameObject.SetActive(false);
             currentStrength--;
@@ -67,7 +76,8 @@ public class EnemyController : MonoBehaviour
         if (other.CompareTag("MainSlime") && attacking && !dead)
         {
             hp.decreaseHealth(1);
-
+            audioClip.clip = slimeDeath;
+            audioClip.Play();
             cam = other.gameObject.GetComponentInChildren<Camera>();
             cam.gameObject.transform.parent = null;
             other.gameObject.SetActive(false);
