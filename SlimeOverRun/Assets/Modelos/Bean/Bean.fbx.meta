@@ -6,7 +6,12 @@ ModelImporter:
   - first:
       74: 2646724620217826704
     second: Idle01
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Textura
+    second: {fileID: 2100000, guid: 99a375a6e5f181943b524866110992b1, type: 2}
   materials:
     materialImportMode: 1
     materialName: 0
