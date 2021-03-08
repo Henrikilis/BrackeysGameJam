@@ -8,6 +8,7 @@ public class Lava : MonoBehaviour
     public AudioClip lavaDeath, arrowDeath;
     public slimeManager sm;
     public hpbar hp;
+    public tutorialTextScript tts;
     Camera cam;
 
     public bool arrow;
@@ -15,6 +16,7 @@ public class Lava : MonoBehaviour
 
     void Start()
     {
+        tts = GetComponent<tutorialTextScript>();
         audioClip = gameObject.GetComponent<AudioSource>();
         hp = FindObjectOfType<hpbar>();
         sm = FindObjectOfType<slimeManager>();
@@ -34,6 +36,8 @@ public class Lava : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            tts.Tutorialtext.SetText("Ouch!  Slimes really don't like Lava!");
+
             hp.decreaseHealth(1);
             other.gameObject.SetActive(false);
 

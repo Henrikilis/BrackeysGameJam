@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Ground
   - MainSlime
+  - pressurePlateText
+  - ponteText
+  - inimigoText
+  - LavaText
   layers:
   - Default
   - TransparentFX
