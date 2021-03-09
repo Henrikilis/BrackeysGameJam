@@ -13,14 +13,37 @@ public class MainMenu : MonoBehaviour
         Time.timeScale = 1;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void ExitButton()
     {
         Application.Quit();
+    }
+
+    public void Level1()
+    {
+        SceneManager.LoadScene(1);
+    }
+    public void Level2()
+    {
+        SceneManager.LoadScene(2);
+    }
+    public void Level3()
+    {
+        SceneManager.LoadScene(3);
+    }
+    public void Level4()
+    {
+        SceneManager.LoadScene(4);
+    }
+    public void Level5()
+    {
+        SceneManager.LoadScene(5);
+    }
+    public void Level6()
+    {
+        SceneManager.LoadScene(6);
+    }
+    public void Level7()
+    {
+        SceneManager.LoadScene(7);
     }
 }
