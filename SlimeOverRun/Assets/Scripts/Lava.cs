@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Lava : MonoBehaviour
 {
@@ -36,6 +37,7 @@ public class Lava : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
+            if (SceneManager.GetActiveScene().buildIndex == 1)
             tts.Tutorialtext.SetText("Ouch!  Slimes really don't like Lava!");
 
             hp.decreaseHealth(1);

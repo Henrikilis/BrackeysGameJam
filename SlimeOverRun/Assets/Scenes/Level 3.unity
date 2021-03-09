@@ -5970,6 +5970,7 @@ MonoBehaviour:
   arrowDeath: {fileID: 8300000, guid: 6f19d4b17c785ec4d84879e4928a642d, type: 3}
   sm: {fileID: 0}
   hp: {fileID: 0}
+  tts: {fileID: 0}
   arrow: 0
   rb: {fileID: 0}
 --- !u!54 &806741599
@@ -9115,7 +9116,7 @@ MonoBehaviour:
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1920, y: 1080}
-  m_ScreenMatchMode: 0
+  m_ScreenMatchMode: 1
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96

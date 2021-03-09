@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class slimeManager : MonoBehaviour
 {
+    public GameObject tutorialTextSlimeManager;
+    public GameObject PauseMenu;
     public GameObject gameOverCanvas;
     public GameObject StartScreen;
     public GameObject healthBar;
@@ -70,7 +72,7 @@ public class slimeManager : MonoBehaviour
 
                 currentSlimes++;
             }
-            if (currentSlimes <= wc.slimeToWin)
+            if (currentSlimes <= 4)
             {
                 gameOverCanvas.gameObject.SetActive(true);
 
@@ -87,6 +89,7 @@ public class slimeManager : MonoBehaviour
 
     public void RestartLevel()
     {
+        Time.timeScale = 1;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
@@ -106,6 +109,31 @@ public class slimeManager : MonoBehaviour
         healthBar.SetActive(true);
         Movement.SetActive(true);
         speedUI.SetActive(true);
+
+    }
+    public void PauseMenuButton()
+    {
+        if (!PauseMenu.activeInHierarchy)
+        {
+            if (SceneManager.GetActiveScene().buildIndex == 1)
+            tutorialTextSlimeManager.SetActive(false);
+            PauseMenu.SetActive(true);
+            Time.timeScale = 0;
+        }
+        else
+        {
+            if (SceneManager.GetActiveScene().buildIndex == 1)
+                tutorialTextSlimeManager.SetActive(true);
+            PauseMenu.SetActive(false);
+            Time.timeScale = 1;
+        }
+        
+
+    }
+
+    public void MenuPress()
+    {
+        SceneManager.LoadScene(0);
 
     }
 
