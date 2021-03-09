@@ -17,7 +17,7 @@ public class slimeManager : MonoBehaviour
     public winCondition wc;
 
     [SerializeField]
-    private float currentSlimes;
+    public float currentSlimes;
     [SerializeField]
     private int timer;
     [SerializeField]
