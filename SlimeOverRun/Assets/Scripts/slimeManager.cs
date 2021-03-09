@@ -72,7 +72,7 @@ public class slimeManager : MonoBehaviour
 
                 currentSlimes++;
             }
-            if (currentSlimes <= wc.slimeToWin)
+            if (currentSlimes <= 4)
             {
                 gameOverCanvas.gameObject.SetActive(true);
 
