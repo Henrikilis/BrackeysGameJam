@@ -18923,6 +18923,22 @@ PrefabInstance:
       propertyPath: tutorialTextSlimeManager
       value: 
       objectReference: {fileID: 408277787}
+    - target: {fileID: 1764473163, guid: ee7b8b395c7c39d46a97c71906f97655, type: 3}
+      propertyPath: m_text
+      value: RESTART
+      objectReference: {fileID: 0}
+    - target: {fileID: 1993090472, guid: ee7b8b395c7c39d46a97c71906f97655, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: RestartLevel
+      objectReference: {fileID: 0}
+    - target: {fileID: 1993090473, guid: ee7b8b395c7c39d46a97c71906f97655, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: dcfb78613ef1e7643ab4aad88d52f100, type: 3}
+    - target: {fileID: 2047838063, guid: ee7b8b395c7c39d46a97c71906f97655, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6817968074228004240, guid: ee7b8b395c7c39d46a97c71906f97655, type: 3}
       propertyPath: m_Name
       value: Buttons

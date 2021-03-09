@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028478, g: 0.22571649, b: 0.30692396, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028522, g: 0.22571723, b: 0.30692503, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -7296,6 +7296,7 @@ MonoBehaviour:
   arrowDeath: {fileID: 8300000, guid: 6f19d4b17c785ec4d84879e4928a642d, type: 3}
   sm: {fileID: 0}
   hp: {fileID: 0}
+  tts: {fileID: 0}
   arrow: 0
   rb: {fileID: 0}
 --- !u!54 &806741599
@@ -9647,6 +9648,7 @@ MonoBehaviour:
   arrowDeath: {fileID: 8300000, guid: 6f19d4b17c785ec4d84879e4928a642d, type: 3}
   sm: {fileID: 0}
   hp: {fileID: 0}
+  tts: {fileID: 0}
   arrow: 0
   rb: {fileID: 0}
 --- !u!64 &1057268258
@@ -11318,7 +11320,7 @@ MonoBehaviour:
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1920, y: 1080}
-  m_ScreenMatchMode: 0
+  m_ScreenMatchMode: 1
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
