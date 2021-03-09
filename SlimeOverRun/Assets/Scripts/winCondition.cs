@@ -14,7 +14,7 @@ public class winCondition : MonoBehaviour
     public  float slimeToWin;
     private float slimeTotal;
 
-
+    public int myLevel;
 
 
     void Start()
