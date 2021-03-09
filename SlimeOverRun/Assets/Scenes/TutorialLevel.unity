@@ -10814,7 +10814,7 @@ MonoBehaviour:
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1920, y: 1080}
-  m_ScreenMatchMode: 0
+  m_ScreenMatchMode: 1
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
@@ -18919,6 +18919,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1210674911}
     m_Modifications:
+    - target: {fileID: 1464327270, guid: ee7b8b395c7c39d46a97c71906f97655, type: 3}
+      propertyPath: tutorialTextSlimeManager
+      value: 
+      objectReference: {fileID: 408277787}
     - target: {fileID: 6817968074228004240, guid: ee7b8b395c7c39d46a97c71906f97655, type: 3}
       propertyPath: m_Name
       value: Buttons
