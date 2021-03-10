@@ -55,5 +55,12 @@ public class LevelScore : MonoBehaviour
         //img[4].GetComponent<Image>().sprite = stars[pb4];
         //img[5].GetComponent<Image>().sprite = stars[pb5];
         //img[6].GetComponent<Image>().sprite = stars[pb6];
+        //pb0 = PlayerPrefs.GetInt("pb0");
+        //pb1 = PlayerPrefs.GetInt("pb1");
+        //pb2 = PlayerPrefs.GetInt("pb2");
+        //pb3 = PlayerPrefs.GetInt("pb3");
+        //pb4 = PlayerPrefs.GetInt("pb4");
+        //pb5 = PlayerPrefs.GetInt("pb5");
+        //pb6 = PlayerPrefs.GetInt("pb6");
     }
 }

@@ -15,7 +15,10 @@ public class winCondition : MonoBehaviour
     private float slimeTotal;
 
     public int myLevel;
-
+    public GameObject victoryScreen;
+    public GameObject stars1;
+    public GameObject stars2;
+    public GameObject stars3;
 
     void Start()
     {
@@ -29,6 +32,14 @@ public class winCondition : MonoBehaviour
 
         slimeToWin = 1;
 
+        victoryScreen = GameObject.Find("VictoryScreen");
+        stars1 = GameObject.Find("1Stars");
+        stars2 = GameObject.Find("2Stars");
+        stars3 = GameObject.Find("3Stars");
+        victoryScreen.SetActive(false);
+        stars1.SetActive(false);
+        stars2.SetActive(false);
+        stars3.SetActive(false);
     }
 
     private void OnTriggerEnter(Collider other)
@@ -36,7 +47,7 @@ public class winCondition : MonoBehaviour
         if (other.CompareTag("Player") || other.CompareTag("MainSlime"))
         {
             slimeCount++;
-            if (manager.currentSlimes == 5)
+            if (manager.currentSlimes <= 5)
             {
                 if(myLevel == 0)
                     LevelScore.lvl0 = 1;
@@ -52,6 +63,7 @@ public class winCondition : MonoBehaviour
                     LevelScore.lvl5 = 1;
                 if (myLevel == 6)
                     LevelScore.lvl6 = 1;
+                stars1.SetActive(true);
             }
             if (manager.currentSlimes > 5 && manager.currentSlimes < 10)
             {
@@ -69,8 +81,9 @@ public class winCondition : MonoBehaviour
                     LevelScore.lvl5 = 2;
                 if (myLevel == 6)
                     LevelScore.lvl6 = 2;
+                stars2.SetActive(true);
             }
-            if (manager.currentSlimes == 10)
+            if (manager.currentSlimes >= 10)
             {
                 if (myLevel == 0)
                     LevelScore.lvl0 = 3;
@@ -86,11 +99,13 @@ public class winCondition : MonoBehaviour
                     LevelScore.lvl5 = 3;
                 if (myLevel == 6)
                     LevelScore.lvl6 = 3;
+                stars3.SetActive(true);
             }
             CheckBest();
             if (slimeCount >= slimeToWin)
             {
-                manager.NextLevel();
+                //manager.NextLevel();
+                victoryScreen.SetActive(true);
             }
         }
     }
