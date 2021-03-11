@@ -34,5 +34,9 @@ public class Keyboard : MonoBehaviour
         {
             buttons.GetComponent<UIController>().swapSpeed();
         }
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            buttons.GetComponent<slimeManager>().PauseMenuButton();
+        }
     }
 }
