@@ -26,7 +26,7 @@ public class sawX : MonoBehaviour
         rb = GetComponent<Rigidbody>();
         passedPointA = false;
         passedPointB = false;
-        hp = FindObjectOfType<hpbar>();
+        //hp = FindObjectOfType<hpbar>();
 
         sm = FindObjectOfType<slimeManager>();
     }
@@ -34,7 +34,7 @@ public class sawX : MonoBehaviour
 
     void FixedUpdate()
     {
-        
+        hp = FindObjectOfType<hpbar>();
 
         if (this.gameObject.transform.position.x < pointA.position.x)
             rb.AddForce(new Vector3(sawSpeed, 0, 0), ForceMode.Acceleration);
