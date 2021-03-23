@@ -6,14 +6,18 @@ using UnityEngine.Advertisements;
 public class AdsManager : MonoBehaviour
 {
     // Start is called before the first frame update
-    IEnumerator Start()
+    //IEnumerator Start()
+    //{
+    //    Advertisement.Initialize("4046445", true);
+
+    //    while (!Advertisement.IsReady())
+    //        yield return null;
+
+    //    Advertisement.Show();
+    //}
+    void Start()
     {
-        Advertisement.Initialize("4046445", true);
 
-        while (!Advertisement.IsReady())
-            yield return null;
-
-        Advertisement.Show();
     }
 
     // Update is called once per frame

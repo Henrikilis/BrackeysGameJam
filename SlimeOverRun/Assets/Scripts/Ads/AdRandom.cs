@@ -14,6 +14,8 @@ public class AdRandom : MonoBehaviour
         if(rng == 2)
         {
             moneyFarm.SetActive(true);
+            moneyFarm.GetComponent<AdmobAds>().requestInterstital();
+            moneyFarm.GetComponent<AdmobAds>().ShowInterstitialAd();
         }
     }
 
