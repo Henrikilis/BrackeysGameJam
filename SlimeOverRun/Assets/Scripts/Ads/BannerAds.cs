@@ -22,8 +22,8 @@ public class BannerAds : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    public void Hide()
     {
-        
+        Advertisement.Banner.Hide();
     }
 }

@@ -7578,6 +7578,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ad Manager
       objectReference: {fileID: 0}
+    - target: {fileID: 1443885539261985814, guid: 4dd0c715b9bc5ad49b1db300f08b01c8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4dd0c715b9bc5ad49b1db300f08b01c8, type: 3}
 --- !u!1 &861420281 stripped
