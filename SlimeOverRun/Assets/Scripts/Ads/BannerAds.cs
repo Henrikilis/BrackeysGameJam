@@ -5,9 +5,10 @@ using UnityEngine.Advertisements;
 
 public class BannerAds : MonoBehaviour
 {
-    string gameId = "3351412";
+    //string gameId = "3351412";
+    string gameId = "4046445";
     string placementId = "banner";
-    bool testMode = true;
+    bool testMode = false;
 
     // Start is called before the first frame update
     IEnumerator Start()
