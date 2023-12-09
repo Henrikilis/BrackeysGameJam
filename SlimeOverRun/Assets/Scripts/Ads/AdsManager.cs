@@ -10,15 +10,10 @@ public class AdsManager : MonoBehaviour
     {
         Advertisement.Initialize("4046445", false);
 
-        while (!Advertisement.IsReady("video"))
+        //while (!Advertisement.IsReady("video"))
+        while (!Advertisement.isInitialized)
             yield return null;
 
         Advertisement.Show("video");
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
